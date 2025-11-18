@@ -1,0 +1,1654 @@
+2025-08-07 10:09:28,051s ------------------------------------------------------- DJ-ERROR: 获取用例失败: string indices must be integers
+2025-08-07 10:11:06,669s ------------------------------------------------------- DJ-ERROR: 获取用例失败: 不支持的文件格式: .excel
+2025-08-07 10:11:24,515s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:24,515s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,181s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-07 10:11:25,181s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-07 10:11:25,401s ------------------------------------------------------- DJ-INFO: 伪数据[邮箱][ywei@example.org]已保存到测试用例的变量池[email]中。
+2025-08-07 10:11:25,401s ------------------------------------------------------- DJ-INFO: 伪数据[邮箱][ywei@example.org]已保存到测试用例的变量池[email]中。
+2025-08-07 10:11:25,572s ------------------------------------------------------- DJ-INFO: 伪数据[姓名][符桂芳]已保存到测试用例的变量池[name]中。
+2025-08-07 10:11:25,572s ------------------------------------------------------- DJ-INFO: 伪数据[姓名][符桂芳]已保存到测试用例的变量池[name]中。
+2025-08-07 10:11:25,617s ------------------------------------------------------- DJ-ERROR: 用例[3]:[新建用户]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,617s ------------------------------------------------------- DJ-ERROR: 用例[3]:[新建用户]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,634s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.id], 执行失败
+2025-08-07 10:11:25,634s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.id], 执行失败
+2025-08-07 10:11:25,706s ------------------------------------------------------- DJ-ERROR: 用例[6]:[用户详情]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,706s ------------------------------------------------------- DJ-ERROR: 用例[6]:[用户详情]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,772s ------------------------------------------------------- DJ-ERROR: 用例[7]:[编辑用户]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,772s ------------------------------------------------------- DJ-ERROR: 用例[7]:[编辑用户]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,849s ------------------------------------------------------- DJ-ERROR: 用例[8]:[用户详情]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,849s ------------------------------------------------------- DJ-ERROR: 用例[8]:[用户详情]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,914s ------------------------------------------------------- DJ-ERROR: 用例[9]:[充值]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/recharge (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,914s ------------------------------------------------------- DJ-ERROR: 用例[9]:[充值]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/recharge (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,981s ------------------------------------------------------- DJ-ERROR: 用例[10]:[获取余额记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/credit (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:25,981s ------------------------------------------------------- DJ-ERROR: 用例[10]:[获取余额记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/credit (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,047s ------------------------------------------------------- DJ-ERROR: 用例[11]:[更改用户余额]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/credit (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,047s ------------------------------------------------------- DJ-ERROR: 用例[11]:[更改用户余额]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/credit (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,165s ------------------------------------------------------- DJ-ERROR: 用例[12]:[新增用户信息记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/record (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,165s ------------------------------------------------------- DJ-ERROR: 用例[12]:[新增用户信息记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/record (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,233s ------------------------------------------------------- DJ-ERROR: 用例[13]:[用户信息记录列表]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/record?page=1&limit=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,233s ------------------------------------------------------- DJ-ERROR: 用例[13]:[用户信息记录列表]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/record?page=1&limit=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,255s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.list[0].id], 执行失败
+2025-08-07 10:11:26,255s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.list[0].id], 执行失败
+2025-08-07 10:11:26,333s ------------------------------------------------------- DJ-ERROR: 用例[15]:[编辑用户信息记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/record/$%7Brecord_id%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,333s ------------------------------------------------------- DJ-ERROR: 用例[15]:[编辑用户信息记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/record/$%7Brecord_id%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,413s ------------------------------------------------------- DJ-ERROR: 用例[16]:[删除用户信息记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/record/$%7Brecord_id%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,413s ------------------------------------------------------- DJ-ERROR: 用例[16]:[删除用户信息记录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/record/$%7Brecord_id%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,529s ------------------------------------------------------- DJ-ERROR: 用例[17]:[用户状态切换]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/status (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,529s ------------------------------------------------------- DJ-ERROR: 用例[17]:[用户状态切换]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D/status (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,677s ------------------------------------------------------- DJ-ERROR: 用例[18]:[删除用户]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,677s ------------------------------------------------------- DJ-ERROR: 用例[18]:[删除用户]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client/$%7Buserid%7D (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,893s ------------------------------------------------------- DJ-ERROR: 用例[19]:[用户列表]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client?keywords=&page=1&limit=20&orderby=id (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,893s ------------------------------------------------------- DJ-ERROR: 用例[19]:[用户列表]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/client?keywords=&page=1&limit=20&orderby=id (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,996s ------------------------------------------------------- DJ-ERROR: 用例[21]:[用户列表显示字段]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/view?view=client (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:26,996s ------------------------------------------------------- DJ-ERROR: 用例[21]:[用户列表显示字段]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/view?view=client (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:27,014s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.admin_view_list[0].id], 执行失败
+2025-08-07 10:11:27,014s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.admin_view_list[0].id], 执行失败
+2025-08-07 10:11:27,093s ------------------------------------------------------- DJ-ERROR: 用例[23]:[编辑用户列表显示字段]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/view/$%7Bview_id%7D/field (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:11:27,093s ------------------------------------------------------- DJ-ERROR: 用例[23]:[编辑用户列表显示字段]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/view/$%7Bview_id%7D/field (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:12:27,055s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:12:27,055s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败HTTPSConnectionPool(host='dcims.idcsmart.com', port=443): Max retries exceeded with url: /v1/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1124)')))
+2025-08-07 10:12:28,002s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-07 10:12:28,002s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-07 10:21:13,677s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[530.29 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MiwibmJmIjoxNzU0NTMzMjcyLCJleHAiOjE3NTUxMzgwNzJ9.QG07e_cxYVZUW4v2PxFpL7tsW-Ia4rllB9yTJIE2rDs"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:21:13,677s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[530.29 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MiwibmJmIjoxNzU0NTMzMjcyLCJleHAiOjE3NTUxMzgwNzJ9.QG07e_cxYVZUW4v2PxFpL7tsW-Ia4rllB9yTJIE2rDs"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:21:13,684s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MiwibmJmIjoxNzU0NTMzMjcyLCJleHAiOjE3NTUxMzgwNzJ9.QG07e_cxYVZUW4v2PxFpL7tsW-Ia4rllB9yTJIE2rDs]==>[${admintoken}]
+2025-08-07 10:21:13,684s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MiwibmJmIjoxNzU0NTMzMjcyLCJleHAiOjE3NTUxMzgwNzJ9.QG07e_cxYVZUW4v2PxFpL7tsW-Ia4rllB9yTJIE2rDs]==>[${admintoken}]
+2025-08-07 10:21:14,306s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[547.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MywibmJmIjoxNzU0NTMzMjczLCJleHAiOjE3NTUxMzgwNzN9.mY04Y87Gyv38MNvqtZA0mO9Th1IjiYcRlZ0k09rMbJA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:21:14,306s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[547.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MywibmJmIjoxNzU0NTMzMjczLCJleHAiOjE3NTUxMzgwNzN9.mY04Y87Gyv38MNvqtZA0mO9Th1IjiYcRlZ0k09rMbJA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:21:14,306s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[547.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MywibmJmIjoxNzU0NTMzMjczLCJleHAiOjE3NTUxMzgwNzN9.mY04Y87Gyv38MNvqtZA0mO9Th1IjiYcRlZ0k09rMbJA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:21:14,328s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MywibmJmIjoxNzU0NTMzMjczLCJleHAiOjE3NTUxMzgwNzN9.mY04Y87Gyv38MNvqtZA0mO9Th1IjiYcRlZ0k09rMbJA]==>[${admintoken}]
+2025-08-07 10:21:14,328s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MywibmJmIjoxNzU0NTMzMjczLCJleHAiOjE3NTUxMzgwNzN9.mY04Y87Gyv38MNvqtZA0mO9Th1IjiYcRlZ0k09rMbJA]==>[${admintoken}]
+2025-08-07 10:21:14,328s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzMzI3MywibmJmIjoxNzU0NTMzMjczLCJleHAiOjE3NTUxMzgwNzN9.mY04Y87Gyv38MNvqtZA0mO9Th1IjiYcRlZ0k09rMbJA]==>[${admintoken}]
+2025-08-07 10:47:33,179s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[510.01 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg1MSwibmJmIjoxNzU0NTM0ODUxLCJleHAiOjE3NTUxMzk2NTF9.wnRcWEkBjf2deXsYwmH0h83Zyx77ihFwW_XGsMc9e1w"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:47:33,179s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[510.01 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg1MSwibmJmIjoxNzU0NTM0ODUxLCJleHAiOjE3NTUxMzk2NTF9.wnRcWEkBjf2deXsYwmH0h83Zyx77ihFwW_XGsMc9e1w"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:47:33,179s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[510.01 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg1MSwibmJmIjoxNzU0NTM0ODUxLCJleHAiOjE3NTUxMzk2NTF9.wnRcWEkBjf2deXsYwmH0h83Zyx77ihFwW_XGsMc9e1w"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:47:33,189s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg1MSwibmJmIjoxNzU0NTM0ODUxLCJleHAiOjE3NTUxMzk2NTF9.wnRcWEkBjf2deXsYwmH0h83Zyx77ihFwW_XGsMc9e1w]==>[${admintoken}]
+2025-08-07 10:47:33,189s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg1MSwibmJmIjoxNzU0NTM0ODUxLCJleHAiOjE3NTUxMzk2NTF9.wnRcWEkBjf2deXsYwmH0h83Zyx77ihFwW_XGsMc9e1w]==>[${admintoken}]
+2025-08-07 10:47:33,189s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg1MSwibmJmIjoxNzU0NTM0ODUxLCJleHAiOjE3NTUxMzk2NTF9.wnRcWEkBjf2deXsYwmH0h83Zyx77ihFwW_XGsMc9e1w]==>[${admintoken}]
+2025-08-07 10:48:02,189s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[537.55 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MCwibmJmIjoxNzU0NTM0ODgwLCJleHAiOjE3NTUxMzk2ODB9.CHWd9J8gtBz0zIV5-jA_LJ0e2iv5aSmtSpx5hhbnXHQ"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:02,189s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[537.55 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MCwibmJmIjoxNzU0NTM0ODgwLCJleHAiOjE3NTUxMzk2ODB9.CHWd9J8gtBz0zIV5-jA_LJ0e2iv5aSmtSpx5hhbnXHQ"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:02,189s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[537.55 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MCwibmJmIjoxNzU0NTM0ODgwLCJleHAiOjE3NTUxMzk2ODB9.CHWd9J8gtBz0zIV5-jA_LJ0e2iv5aSmtSpx5hhbnXHQ"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:02,197s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MCwibmJmIjoxNzU0NTM0ODgwLCJleHAiOjE3NTUxMzk2ODB9.CHWd9J8gtBz0zIV5-jA_LJ0e2iv5aSmtSpx5hhbnXHQ]==>[${admintoken}]
+2025-08-07 10:48:02,197s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MCwibmJmIjoxNzU0NTM0ODgwLCJleHAiOjE3NTUxMzk2ODB9.CHWd9J8gtBz0zIV5-jA_LJ0e2iv5aSmtSpx5hhbnXHQ]==>[${admintoken}]
+2025-08-07 10:48:02,197s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MCwibmJmIjoxNzU0NTM0ODgwLCJleHAiOjE3NTUxMzk2ODB9.CHWd9J8gtBz0zIV5-jA_LJ0e2iv5aSmtSpx5hhbnXHQ]==>[${admintoken}]
+2025-08-07 10:48:03,177s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.92 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:03,177s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.92 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:03,177s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.92 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:03,177s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.92 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:03,572s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww]==>[${admintoken}]
+2025-08-07 10:48:03,572s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww]==>[${admintoken}]
+2025-08-07 10:48:03,572s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww]==>[${admintoken}]
+2025-08-07 10:48:03,572s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDg4MSwibmJmIjoxNzU0NTM0ODgxLCJleHAiOjE3NTUxMzk2ODF9.HmGn6nc4f8vNXgaqrs3t5V_uECfZp_VeSS7AT1CH2Ww]==>[${admintoken}]
+2025-08-07 10:48:28,473s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.42 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,473s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.42 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,473s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.42 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,477s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:48:28,477s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:48:28,477s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:48:28,986s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[494.15 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,986s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[494.15 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,986s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[494.15 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,986s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[494.15 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:48:28,991s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:48:28,991s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:48:28,991s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:48:28,991s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNDkwNywibmJmIjoxNzU0NTM0OTA3LCJleHAiOjE3NTUxMzk3MDd9.Y8Eu0rtu6i508LrR7jexScVmOqFKYBLTdIkQ_7KOgp4]==>[${admintoken}]
+2025-08-07 10:57:38,854s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[1005.62 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1NywibmJmIjoxNzU0NTM1NDU3LCJleHAiOjE3NTUxNDAyNTd9.6haXrfvMVvmGNnATkVfzSFydSP-Gff0VagLz-qyEfC8"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:38,854s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[1005.62 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1NywibmJmIjoxNzU0NTM1NDU3LCJleHAiOjE3NTUxNDAyNTd9.6haXrfvMVvmGNnATkVfzSFydSP-Gff0VagLz-qyEfC8"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:38,854s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[1005.62 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1NywibmJmIjoxNzU0NTM1NDU3LCJleHAiOjE3NTUxNDAyNTd9.6haXrfvMVvmGNnATkVfzSFydSP-Gff0VagLz-qyEfC8"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:38,859s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1NywibmJmIjoxNzU0NTM1NDU3LCJleHAiOjE3NTUxNDAyNTd9.6haXrfvMVvmGNnATkVfzSFydSP-Gff0VagLz-qyEfC8]==>[${admintoken}]
+2025-08-07 10:57:38,859s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1NywibmJmIjoxNzU0NTM1NDU3LCJleHAiOjE3NTUxNDAyNTd9.6haXrfvMVvmGNnATkVfzSFydSP-Gff0VagLz-qyEfC8]==>[${admintoken}]
+2025-08-07 10:57:38,859s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1NywibmJmIjoxNzU0NTM1NDU3LCJleHAiOjE3NTUxNDAyNTd9.6haXrfvMVvmGNnATkVfzSFydSP-Gff0VagLz-qyEfC8]==>[${admintoken}]
+2025-08-07 10:57:39,487s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[613.28 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:39,487s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[613.28 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:39,487s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[613.28 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:39,487s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[613.28 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 10:57:39,489s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM]==>[${admintoken}]
+2025-08-07 10:57:39,489s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM]==>[${admintoken}]
+2025-08-07 10:57:39,489s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM]==>[${admintoken}]
+2025-08-07 10:57:39,489s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTQ1OCwibmJmIjoxNzU0NTM1NDU4LCJleHAiOjE3NTUxNDAyNTh9.20JnH6QgvDB3YTl_rGJT-1ttnnX0mrAQMyzXdDscnbM]==>[${admintoken}]
+2025-08-07 11:01:14,591s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.52 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTY3MywibmJmIjoxNzU0NTM1NjczLCJleHAiOjE3NTUxNDA0NzN9.WyMuHJrgsEa5ChwZzEDubfIpaJ-7fKj9qNoQjX6TGRk"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:01:14,591s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.52 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTY3MywibmJmIjoxNzU0NTM1NjczLCJleHAiOjE3NTUxNDA0NzN9.WyMuHJrgsEa5ChwZzEDubfIpaJ-7fKj9qNoQjX6TGRk"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:01:14,591s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[948.52 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTY3MywibmJmIjoxNzU0NTM1NjczLCJleHAiOjE3NTUxNDA0NzN9.WyMuHJrgsEa5ChwZzEDubfIpaJ-7fKj9qNoQjX6TGRk"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:01:14,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTY3MywibmJmIjoxNzU0NTM1NjczLCJleHAiOjE3NTUxNDA0NzN9.WyMuHJrgsEa5ChwZzEDubfIpaJ-7fKj9qNoQjX6TGRk]==>[${admintoken}]
+2025-08-07 11:01:14,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTY3MywibmJmIjoxNzU0NTM1NjczLCJleHAiOjE3NTUxNDA0NzN9.WyMuHJrgsEa5ChwZzEDubfIpaJ-7fKj9qNoQjX6TGRk]==>[${admintoken}]
+2025-08-07 11:01:14,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTY3MywibmJmIjoxNzU0NTM1NjczLCJleHAiOjE3NTUxNDA0NzN9.WyMuHJrgsEa5ChwZzEDubfIpaJ-7fKj9qNoQjX6TGRk]==>[${admintoken}]
+2025-08-07 11:02:47,271s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[473.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTc2NiwibmJmIjoxNzU0NTM1NzY2LCJleHAiOjE3NTUxNDA1NjZ9.IIUa13FdA90la3q9_W8IyFSu7hTjkh_URLlAN8NSNbA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:02:47,271s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[473.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTc2NiwibmJmIjoxNzU0NTM1NzY2LCJleHAiOjE3NTUxNDA1NjZ9.IIUa13FdA90la3q9_W8IyFSu7hTjkh_URLlAN8NSNbA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:02:47,271s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[473.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTc2NiwibmJmIjoxNzU0NTM1NzY2LCJleHAiOjE3NTUxNDA1NjZ9.IIUa13FdA90la3q9_W8IyFSu7hTjkh_URLlAN8NSNbA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:02:47,276s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTc2NiwibmJmIjoxNzU0NTM1NzY2LCJleHAiOjE3NTUxNDA1NjZ9.IIUa13FdA90la3q9_W8IyFSu7hTjkh_URLlAN8NSNbA]==>[${admintoken}]
+2025-08-07 11:02:47,276s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTc2NiwibmJmIjoxNzU0NTM1NzY2LCJleHAiOjE3NTUxNDA1NjZ9.IIUa13FdA90la3q9_W8IyFSu7hTjkh_URLlAN8NSNbA]==>[${admintoken}]
+2025-08-07 11:02:47,276s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTc2NiwibmJmIjoxNzU0NTM1NzY2LCJleHAiOjE3NTUxNDA1NjZ9.IIUa13FdA90la3q9_W8IyFSu7hTjkh_URLlAN8NSNbA]==>[${admintoken}]
+2025-08-07 11:03:25,283s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.35 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,283s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.35 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,283s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.35 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,293s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:03:25,293s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:03:25,293s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:03:25,806s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.79 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,806s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.79 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,806s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.79 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,806s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.79 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:03:25,809s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:03:25,809s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:03:25,809s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:03:25,809s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTgwNCwibmJmIjoxNzU0NTM1ODA0LCJleHAiOjE3NTUxNDA2MDR9.tmTgwqvK6g-eQjYijgpjDJQcA6JP2Fr71E34-u47vAI]==>[${admintoken}]
+2025-08-07 11:05:03,993s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[576.98 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMiwibmJmIjoxNzU0NTM1OTAyLCJleHAiOjE3NTUxNDA3MDJ9.WRpTy1FLSM8Fxplhv1ph0zedoftqSE2z-CEtsYZG1vA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:03,993s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[576.98 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMiwibmJmIjoxNzU0NTM1OTAyLCJleHAiOjE3NTUxNDA3MDJ9.WRpTy1FLSM8Fxplhv1ph0zedoftqSE2z-CEtsYZG1vA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:03,993s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[576.98 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMiwibmJmIjoxNzU0NTM1OTAyLCJleHAiOjE3NTUxNDA3MDJ9.WRpTy1FLSM8Fxplhv1ph0zedoftqSE2z-CEtsYZG1vA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:03,999s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMiwibmJmIjoxNzU0NTM1OTAyLCJleHAiOjE3NTUxNDA3MDJ9.WRpTy1FLSM8Fxplhv1ph0zedoftqSE2z-CEtsYZG1vA]==>[${admintoken}]
+2025-08-07 11:05:03,999s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMiwibmJmIjoxNzU0NTM1OTAyLCJleHAiOjE3NTUxNDA3MDJ9.WRpTy1FLSM8Fxplhv1ph0zedoftqSE2z-CEtsYZG1vA]==>[${admintoken}]
+2025-08-07 11:05:03,999s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMiwibmJmIjoxNzU0NTM1OTAyLCJleHAiOjE3NTUxNDA3MDJ9.WRpTy1FLSM8Fxplhv1ph0zedoftqSE2z-CEtsYZG1vA]==>[${admintoken}]
+2025-08-07 11:05:04,516s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[500.02 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:04,516s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[500.02 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:04,516s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[500.02 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:04,516s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[500.02 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:04,518s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw]==>[${admintoken}]
+2025-08-07 11:05:04,518s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw]==>[${admintoken}]
+2025-08-07 11:05:04,518s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw]==>[${admintoken}]
+2025-08-07 11:05:04,518s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkwMywibmJmIjoxNzU0NTM1OTAzLCJleHAiOjE3NTUxNDA3MDN9.EzlyZ_OLoa87fhA5QIoYqj6QIURQTnrchX0Duzg4tKw]==>[${admintoken}]
+2025-08-07 11:05:36,066s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.24 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNCwibmJmIjoxNzU0NTM1OTM0LCJleHAiOjE3NTUxNDA3MzR9.spe_UufvOXFERIPE-O5SKHGdFZSIwyVFINQfgI4KumI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,066s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.24 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNCwibmJmIjoxNzU0NTM1OTM0LCJleHAiOjE3NTUxNDA3MzR9.spe_UufvOXFERIPE-O5SKHGdFZSIwyVFINQfgI4KumI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,066s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.24 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNCwibmJmIjoxNzU0NTM1OTM0LCJleHAiOjE3NTUxNDA3MzR9.spe_UufvOXFERIPE-O5SKHGdFZSIwyVFINQfgI4KumI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,081s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNCwibmJmIjoxNzU0NTM1OTM0LCJleHAiOjE3NTUxNDA3MzR9.spe_UufvOXFERIPE-O5SKHGdFZSIwyVFINQfgI4KumI]==>[${admintoken}]
+2025-08-07 11:05:36,081s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNCwibmJmIjoxNzU0NTM1OTM0LCJleHAiOjE3NTUxNDA3MzR9.spe_UufvOXFERIPE-O5SKHGdFZSIwyVFINQfgI4KumI]==>[${admintoken}]
+2025-08-07 11:05:36,081s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNCwibmJmIjoxNzU0NTM1OTM0LCJleHAiOjE3NTUxNDA3MzR9.spe_UufvOXFERIPE-O5SKHGdFZSIwyVFINQfgI4KumI]==>[${admintoken}]
+2025-08-07 11:05:36,593s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.50 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,593s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.50 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,593s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.50 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,593s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[487.50 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:05:36,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0]==>[${admintoken}]
+2025-08-07 11:05:36,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0]==>[${admintoken}]
+2025-08-07 11:05:36,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0]==>[${admintoken}]
+2025-08-07 11:05:36,595s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNTkzNSwibmJmIjoxNzU0NTM1OTM1LCJleHAiOjE3NTUxNDA3MzV9.IZizp157CdIHWBSWwm3hB4hazuT9UWlM9lVo06ysRW0]==>[${admintoken}]
+2025-08-07 11:09:27,513s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.12 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:27,513s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.12 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:27,513s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.12 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:27,517s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:09:27,517s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:09:27,517s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:09:28,012s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.34 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:28,012s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.34 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:28,012s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.34 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:28,012s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.34 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:09:28,014s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:09:28,014s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:09:28,014s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:09:28,014s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjE2NiwibmJmIjoxNzU0NTM2MTY2LCJleHAiOjE3NTUxNDA5NjZ9.jEjy1ucvUoi7kegm5tSyJvtj8OpdRzlTwDqoWJ9Mnec]==>[${admintoken}]
+2025-08-07 11:10:24,614s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[517.40 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:24,614s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[517.40 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:24,614s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[517.40 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:24,628s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:10:24,628s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:10:24,628s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:10:25,161s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[514.64 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:25,161s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[514.64 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:25,161s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[514.64 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:25,161s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[514.64 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:10:25,163s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:10:25,163s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:10:25,163s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:10:25,163s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjIyMywibmJmIjoxNzU0NTM2MjIzLCJleHAiOjE3NTUxNDEwMjN9.LpVvE9V8pQ7eUnuXKyjWLpqelxKadv1KidX4r82xnFo]==>[${admintoken}]
+2025-08-07 11:16:59,884s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.30 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOCwibmJmIjoxNzU0NTM2NjE4LCJleHAiOjE3NTUxNDE0MTh9.ub45ekOI5XJgHjC-6YHY3ytTrvnKDiJQBlr09hVaweA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:16:59,884s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.30 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOCwibmJmIjoxNzU0NTM2NjE4LCJleHAiOjE3NTUxNDE0MTh9.ub45ekOI5XJgHjC-6YHY3ytTrvnKDiJQBlr09hVaweA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:16:59,884s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.30 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOCwibmJmIjoxNzU0NTM2NjE4LCJleHAiOjE3NTUxNDE0MTh9.ub45ekOI5XJgHjC-6YHY3ytTrvnKDiJQBlr09hVaweA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:16:59,894s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOCwibmJmIjoxNzU0NTM2NjE4LCJleHAiOjE3NTUxNDE0MTh9.ub45ekOI5XJgHjC-6YHY3ytTrvnKDiJQBlr09hVaweA]==>[${admintoken}]
+2025-08-07 11:16:59,894s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOCwibmJmIjoxNzU0NTM2NjE4LCJleHAiOjE3NTUxNDE0MTh9.ub45ekOI5XJgHjC-6YHY3ytTrvnKDiJQBlr09hVaweA]==>[${admintoken}]
+2025-08-07 11:16:59,894s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOCwibmJmIjoxNzU0NTM2NjE4LCJleHAiOjE3NTUxNDE0MTh9.ub45ekOI5XJgHjC-6YHY3ytTrvnKDiJQBlr09hVaweA]==>[${admintoken}]
+2025-08-07 11:17:00,429s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:17:00,429s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:17:00,429s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:17:00,429s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:17:00,432s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4]==>[${admintoken}]
+2025-08-07 11:17:00,432s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4]==>[${admintoken}]
+2025-08-07 11:17:00,432s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4]==>[${admintoken}]
+2025-08-07 11:17:00,432s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzNjYxOSwibmJmIjoxNzU0NTM2NjE5LCJleHAiOjE3NTUxNDE0MTl9.yJo4Eux0AByXpkl-wGK_gPXKlyGVxV-GqO-OOduPGb4]==>[${admintoken}]
+2025-08-07 11:53:58,248s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[531.87 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,248s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[531.87 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,248s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[531.87 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,254s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 11:53:58,254s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 11:53:58,254s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 11:53:58,763s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.61 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,763s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.61 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,763s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.61 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,763s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.61 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 11:53:58,767s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 11:53:58,767s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 11:53:58,767s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 11:53:58,767s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDUzODgzNywibmJmIjoxNzU0NTM4ODM3LCJleHAiOjE3NTUxNDM2Mzd9.4yuKLXbnVxNbCoFuztMYUVbuvfZoNL4MPI8M_jvVOvI]==>[${admintoken}]
+2025-08-07 13:37:55,847s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[521.75 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NCwibmJmIjoxNzU0NTQ1MDc0LCJleHAiOjE3NTUxNDk4NzR9.WNIhfgmUAGTP52j0jzM1Y-YjbwFrtaVPiZbIqgwzqeA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:55,847s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[521.75 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NCwibmJmIjoxNzU0NTQ1MDc0LCJleHAiOjE3NTUxNDk4NzR9.WNIhfgmUAGTP52j0jzM1Y-YjbwFrtaVPiZbIqgwzqeA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:55,847s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[521.75 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NCwibmJmIjoxNzU0NTQ1MDc0LCJleHAiOjE3NTUxNDk4NzR9.WNIhfgmUAGTP52j0jzM1Y-YjbwFrtaVPiZbIqgwzqeA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:55,859s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NCwibmJmIjoxNzU0NTQ1MDc0LCJleHAiOjE3NTUxNDk4NzR9.WNIhfgmUAGTP52j0jzM1Y-YjbwFrtaVPiZbIqgwzqeA]==>[${admintoken}]
+2025-08-07 13:37:55,859s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NCwibmJmIjoxNzU0NTQ1MDc0LCJleHAiOjE3NTUxNDk4NzR9.WNIhfgmUAGTP52j0jzM1Y-YjbwFrtaVPiZbIqgwzqeA]==>[${admintoken}]
+2025-08-07 13:37:55,859s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NCwibmJmIjoxNzU0NTQ1MDc0LCJleHAiOjE3NTUxNDk4NzR9.WNIhfgmUAGTP52j0jzM1Y-YjbwFrtaVPiZbIqgwzqeA]==>[${admintoken}]
+2025-08-07 13:37:56,396s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[499.71 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:56,396s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[499.71 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:56,396s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[499.71 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:56,396s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[499.71 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:37:56,397s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo]==>[${admintoken}]
+2025-08-07 13:37:56,397s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo]==>[${admintoken}]
+2025-08-07 13:37:56,397s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo]==>[${admintoken}]
+2025-08-07 13:37:56,397s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTA3NSwibmJmIjoxNzU0NTQ1MDc1LCJleHAiOjE3NTUxNDk4NzV9.1oDC6X4nU0-UhSNpCC_XRpd0ok0HoE9ONobUjno2HXo]==>[${admintoken}]
+2025-08-07 13:39:19,285s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.22 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,285s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.22 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,285s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.22 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,291s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:39:19,291s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:39:19,291s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:39:19,804s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[495.60 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,804s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[495.60 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,804s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[495.60 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,804s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[495.60 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:39:19,807s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:39:19,807s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:39:19,807s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:39:19,807s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTE1OCwibmJmIjoxNzU0NTQ1MTU4LCJleHAiOjE3NTUxNDk5NTh9.ZyVSdy5twHfWH-4Et2UDr0QER6Q7veNFeEHLgQ6fAmE]==>[${admintoken}]
+2025-08-07 13:42:28,640s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[530.09 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:28,640s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[530.09 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:28,640s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[530.09 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:28,660s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:42:28,660s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:42:28,660s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:42:29,227s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[534.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:29,227s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[534.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:29,227s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[534.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:29,227s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[534.07 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:42:29,228s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:42:29,228s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:42:29,228s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:42:29,228s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTM0NywibmJmIjoxNzU0NTQ1MzQ3LCJleHAiOjE3NTUxNTAxNDd9.5ayfZFuJhzqs35GGsXFUoJeng9BCYuIOgFBXVziHvoM]==>[${admintoken}]
+2025-08-07 13:44:19,011s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[484.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1NywibmJmIjoxNzU0NTQ1NDU3LCJleHAiOjE3NTUxNTAyNTd9.F7-4f4hd1sshnp7yuk6MvQUgB1XyzdRC5F3LSuYWqgE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,011s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[484.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1NywibmJmIjoxNzU0NTQ1NDU3LCJleHAiOjE3NTUxNTAyNTd9.F7-4f4hd1sshnp7yuk6MvQUgB1XyzdRC5F3LSuYWqgE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,011s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[484.95 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1NywibmJmIjoxNzU0NTQ1NDU3LCJleHAiOjE3NTUxNTAyNTd9.F7-4f4hd1sshnp7yuk6MvQUgB1XyzdRC5F3LSuYWqgE"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,015s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1NywibmJmIjoxNzU0NTQ1NDU3LCJleHAiOjE3NTUxNTAyNTd9.F7-4f4hd1sshnp7yuk6MvQUgB1XyzdRC5F3LSuYWqgE]==>[${admintoken}]
+2025-08-07 13:44:19,015s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1NywibmJmIjoxNzU0NTQ1NDU3LCJleHAiOjE3NTUxNTAyNTd9.F7-4f4hd1sshnp7yuk6MvQUgB1XyzdRC5F3LSuYWqgE]==>[${admintoken}]
+2025-08-07 13:44:19,015s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1NywibmJmIjoxNzU0NTQ1NDU3LCJleHAiOjE3NTUxNTAyNTd9.F7-4f4hd1sshnp7yuk6MvQUgB1XyzdRC5F3LSuYWqgE]==>[${admintoken}]
+2025-08-07 13:44:19,511s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,511s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,511s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,511s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.13 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:44:19,513s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo]==>[${admintoken}]
+2025-08-07 13:44:19,513s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo]==>[${admintoken}]
+2025-08-07 13:44:19,513s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo]==>[${admintoken}]
+2025-08-07 13:44:19,513s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTQ1OCwibmJmIjoxNzU0NTQ1NDU4LCJleHAiOjE3NTUxNTAyNTh9.iLy595G6PeOxiPUk_hy9A4F3izxyyZtA0bmmyx5TBmo]==>[${admintoken}]
+2025-08-07 13:46:17,938s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.78 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NiwibmJmIjoxNzU0NTQ1NTc2LCJleHAiOjE3NTUxNTAzNzZ9.f-QXrK18hvgRoI8olkQomhInubCbbj5RaKG3Pp3sASc"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:17,938s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.78 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NiwibmJmIjoxNzU0NTQ1NTc2LCJleHAiOjE3NTUxNTAzNzZ9.f-QXrK18hvgRoI8olkQomhInubCbbj5RaKG3Pp3sASc"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:17,938s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.78 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NiwibmJmIjoxNzU0NTQ1NTc2LCJleHAiOjE3NTUxNTAzNzZ9.f-QXrK18hvgRoI8olkQomhInubCbbj5RaKG3Pp3sASc"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:17,951s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NiwibmJmIjoxNzU0NTQ1NTc2LCJleHAiOjE3NTUxNTAzNzZ9.f-QXrK18hvgRoI8olkQomhInubCbbj5RaKG3Pp3sASc]==>[${admintoken}]
+2025-08-07 13:46:17,951s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NiwibmJmIjoxNzU0NTQ1NTc2LCJleHAiOjE3NTUxNTAzNzZ9.f-QXrK18hvgRoI8olkQomhInubCbbj5RaKG3Pp3sASc]==>[${admintoken}]
+2025-08-07 13:46:17,951s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NiwibmJmIjoxNzU0NTQ1NTc2LCJleHAiOjE3NTUxNTAzNzZ9.f-QXrK18hvgRoI8olkQomhInubCbbj5RaKG3Pp3sASc]==>[${admintoken}]
+2025-08-07 13:46:18,469s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.26 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:18,469s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.26 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:18,469s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.26 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:18,469s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[481.26 ms]-执行通过. 
+ 校验结果：接口响应【{
+  "data": {
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA"
+  },
+  "msg": "登录成功",
+  "status": 200
+}】中【status】的值【200】等于预期值：【200】 
+ 变量提取结果：无变量提取
+2025-08-07 13:46:18,471s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA]==>[${admintoken}]
+2025-08-07 13:46:18,471s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA]==>[${admintoken}]
+2025-08-07 13:46:18,471s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA]==>[${admintoken}]
+2025-08-07 13:46:18,471s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0NTU3NywibmJmIjoxNzU0NTQ1NTc3LCJleHAiOjE3NTUxNTAzNzd9.FcxLiot9xw42zypGfC2fBgTNXUwqHws68CJsirMerKA]==>[${admintoken}]
+2025-08-07 14:58:28,269s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[663.47 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,269s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[663.47 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,269s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[663.47 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,269s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[663.47 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,274s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,274s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,274s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,274s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,774s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.27 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,774s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.27 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,774s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.27 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,774s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.27 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,774s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.27 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:28,784s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,784s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,784s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,784s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:28,784s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkwNywibmJmIjoxNzU0NTQ5OTA3LCJleHAiOjE3NTUxNTQ3MDd9.Sva5289VBrA0i-FmN9S8Tid3Rmu-PKMwyK5LoFPLImU]==>[${admintoken}]
+2025-08-07 14:58:55,506s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.07 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:55,506s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.07 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:55,506s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.07 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:55,506s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[492.07 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 14:58:55,512s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkzNCwibmJmIjoxNzU0NTQ5OTM0LCJleHAiOjE3NTUxNTQ3MzR9.2mNSc51AfWISuPu8hleVuJVdY0yeyLJCqRUOnkdlTMs]==>[${admintoken}]
+2025-08-07 14:58:55,512s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkzNCwibmJmIjoxNzU0NTQ5OTM0LCJleHAiOjE3NTUxNTQ3MzR9.2mNSc51AfWISuPu8hleVuJVdY0yeyLJCqRUOnkdlTMs]==>[${admintoken}]
+2025-08-07 14:58:55,512s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkzNCwibmJmIjoxNzU0NTQ5OTM0LCJleHAiOjE3NTUxNTQ3MzR9.2mNSc51AfWISuPu8hleVuJVdY0yeyLJCqRUOnkdlTMs]==>[${admintoken}]
+2025-08-07 14:58:55,512s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU0OTkzNCwibmJmIjoxNzU0NTQ5OTM0LCJleHAiOjE3NTUxNTQ3MzR9.2mNSc51AfWISuPu8hleVuJVdY0yeyLJCqRUOnkdlTMs]==>[${admintoken}]
+2025-08-07 15:00:51,918s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[877.62 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:00:51,918s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[877.62 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:00:51,918s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[877.62 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:00:51,918s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[877.62 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:00:51,921s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MDA1MCwibmJmIjoxNzU0NTUwMDUwLCJleHAiOjE3NTUxNTQ4NTB9.ymSadfZOK4QiGnlsxBACft4pnMmlScA4TPKn5THCdEI]==>[${admintoken}]
+2025-08-07 15:00:51,921s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MDA1MCwibmJmIjoxNzU0NTUwMDUwLCJleHAiOjE3NTUxNTQ4NTB9.ymSadfZOK4QiGnlsxBACft4pnMmlScA4TPKn5THCdEI]==>[${admintoken}]
+2025-08-07 15:00:51,921s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MDA1MCwibmJmIjoxNzU0NTUwMDUwLCJleHAiOjE3NTUxNTQ4NTB9.ymSadfZOK4QiGnlsxBACft4pnMmlScA4TPKn5THCdEI]==>[${admintoken}]
+2025-08-07 15:00:51,921s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MDA1MCwibmJmIjoxNzU0NTUwMDUwLCJleHAiOjE3NTUxNTQ4NTB9.ymSadfZOK4QiGnlsxBACft4pnMmlScA4TPKn5THCdEI]==>[${admintoken}]
+2025-08-07 15:02:05,465s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:02:05,465s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:02:05,465s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:02:05,465s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:04:30,488s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:04:30,488s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:04:30,488s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:04:30,488s ------------------------------------------------------- DJ-ERROR: 用例[1]:[登录]执行不通过.原因如下：
+发送请求失败list index out of range
+2025-08-07 15:25:00,189s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[505.29 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【[contains_data,value_status=200]】
+2025-08-07 15:25:00,189s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[505.29 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【[contains_data,value_status=200]】
+2025-08-07 15:25:00,189s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[505.29 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【[contains_data,value_status=200]】
+2025-08-07 15:25:00,189s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[505.29 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【[contains_data,value_status=200]】
+2025-08-07 15:26:22,375s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[478.03 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:26:22,375s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[478.03 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:26:22,375s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[478.03 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:26:22,375s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[478.03 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:27:13,837s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[586.72 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:27:13,837s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[586.72 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:27:13,837s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[586.72 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:27:13,837s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[586.72 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:28:33,043s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.87 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:28:33,043s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.87 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:28:33,043s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.87 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:28:33,043s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.87 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:29:24,951s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.73 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:29:24,951s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.73 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:29:24,951s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.73 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:29:24,951s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.73 ms]-执行不通过.原因如下：
+ 未定义的断言规则：【["contains_data","value_status=200"]】
+2025-08-07 15:30:28,553s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[574.32 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:30:28,553s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[574.32 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:30:28,553s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[574.32 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:30:28,553s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[574.32 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:31:29,930s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.25 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:31:29,930s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.25 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:31:29,930s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.25 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:31:29,930s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.25 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:33:22,396s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[509.69 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:33:22,396s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[509.69 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:33:22,396s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[509.69 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:33:22,396s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[509.69 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:34:35,133s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.08 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:34:35,133s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.08 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:34:35,133s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.08 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:34:35,133s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[513.08 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:35:53,624s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.62 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:35:53,624s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.62 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:35:53,624s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.62 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:35:53,624s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[512.62 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:36:51,838s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.19 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:36:51,838s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.19 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:36:51,838s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.19 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:36:51,838s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[480.19 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:38:39,708s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[489.38 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:38:39,708s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[489.38 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:38:39,708s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[489.38 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:38:39,708s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[489.38 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:41:27,801s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[490.84 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:41:27,801s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[490.84 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:41:27,801s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[490.84 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:41:27,801s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[490.84 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: 200，实际: 200
+2025-08-07 15:43:07,081s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.64 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:43:07,081s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.64 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:43:07,081s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.64 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:43:07,081s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[506.64 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:45:00,792s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[687.77 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:45:00,792s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[687.77 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:45:00,792s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[687.77 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:45:00,792s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[687.77 ms]-执行不通过.原因如下：
+ 键 'status' 的值不匹配，期望: int(200)，实际: 200
+2025-08-07 15:47:35,126s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.16 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:47:35,126s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.16 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:47:35,126s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.16 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:47:35,126s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[488.16 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:48:00,994s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[522.37 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:48:00,994s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[522.37 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:48:00,994s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[522.37 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:48:00,994s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[522.37 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:48:00,996s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1Mjg3OSwibmJmIjoxNzU0NTUyODc5LCJleHAiOjE3NTUxNTc2Nzl9.GXTHH0BLGQlKpOvFwc0_PH--zoG5Jgv0zrGw3zp1HG8]==>[${admintoken}]
+2025-08-07 15:48:00,996s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1Mjg3OSwibmJmIjoxNzU0NTUyODc5LCJleHAiOjE3NTUxNTc2Nzl9.GXTHH0BLGQlKpOvFwc0_PH--zoG5Jgv0zrGw3zp1HG8]==>[${admintoken}]
+2025-08-07 15:48:00,996s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1Mjg3OSwibmJmIjoxNzU0NTUyODc5LCJleHAiOjE3NTUxNTc2Nzl9.GXTHH0BLGQlKpOvFwc0_PH--zoG5Jgv0zrGw3zp1HG8]==>[${admintoken}]
+2025-08-07 15:48:00,996s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1Mjg3OSwibmJmIjoxNzU0NTUyODc5LCJleHAiOjE3NTUxNTc2Nzl9.GXTHH0BLGQlKpOvFwc0_PH--zoG5Jgv0zrGw3zp1HG8]==>[${admintoken}]
+2025-08-07 15:56:06,588s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.70 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:06,588s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.70 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:06,588s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.70 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:06,588s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[493.70 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:06,590s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzM2NSwibmJmIjoxNzU0NTUzMzY1LCJleHAiOjE3NTUxNTgxNjV9.2TW-IdwbejSA4kMCB-RXClbwcWZl_gOb1q4GN3ulPkE]==>[${admintoken}]
+2025-08-07 15:56:06,590s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzM2NSwibmJmIjoxNzU0NTUzMzY1LCJleHAiOjE3NTUxNTgxNjV9.2TW-IdwbejSA4kMCB-RXClbwcWZl_gOb1q4GN3ulPkE]==>[${admintoken}]
+2025-08-07 15:56:06,590s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzM2NSwibmJmIjoxNzU0NTUzMzY1LCJleHAiOjE3NTUxNTgxNjV9.2TW-IdwbejSA4kMCB-RXClbwcWZl_gOb1q4GN3ulPkE]==>[${admintoken}]
+2025-08-07 15:56:06,590s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzM2NSwibmJmIjoxNzU0NTUzMzY1LCJleHAiOjE3NTUxNTgxNjV9.2TW-IdwbejSA4kMCB-RXClbwcWZl_gOb1q4GN3ulPkE]==>[${admintoken}]
+2025-08-07 15:56:53,006s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[550.23 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:53,006s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[550.23 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:53,006s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[550.23 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:53,006s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[550.23 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:56:53,298s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQxMSwibmJmIjoxNzU0NTUzNDExLCJleHAiOjE3NTUxNTgyMTF9.Ik2KH7CwLKR_-vdj0JTcLgDBsVtomGm6ngXmCdooZbQ]==>[${admintoken}]
+2025-08-07 15:56:53,298s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQxMSwibmJmIjoxNzU0NTUzNDExLCJleHAiOjE3NTUxNTgyMTF9.Ik2KH7CwLKR_-vdj0JTcLgDBsVtomGm6ngXmCdooZbQ]==>[${admintoken}]
+2025-08-07 15:56:53,298s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQxMSwibmJmIjoxNzU0NTUzNDExLCJleHAiOjE3NTUxNTgyMTF9.Ik2KH7CwLKR_-vdj0JTcLgDBsVtomGm6ngXmCdooZbQ]==>[${admintoken}]
+2025-08-07 15:56:53,298s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQxMSwibmJmIjoxNzU0NTUzNDExLCJleHAiOjE3NTUxNTgyMTF9.Ik2KH7CwLKR_-vdj0JTcLgDBsVtomGm6ngXmCdooZbQ]==>[${admintoken}]
+2025-08-07 15:57:13,460s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.26 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:57:13,460s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.26 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:57:13,460s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.26 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:57:13,460s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[482.26 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成. 
+ 变量提取结果：无变量提取
+2025-08-07 15:57:13,463s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQzMiwibmJmIjoxNzU0NTUzNDMyLCJleHAiOjE3NTUxNTgyMzJ9.5ecxX-phmR5o3LlDu3d8ToGhqs4AQd0boXyAfhwePDU]==>[${admintoken}]
+2025-08-07 15:57:13,463s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQzMiwibmJmIjoxNzU0NTUzNDMyLCJleHAiOjE3NTUxNTgyMzJ9.5ecxX-phmR5o3LlDu3d8ToGhqs4AQd0boXyAfhwePDU]==>[${admintoken}]
+2025-08-07 15:57:13,463s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQzMiwibmJmIjoxNzU0NTUzNDMyLCJleHAiOjE3NTUxNTgyMzJ9.5ecxX-phmR5o3LlDu3d8ToGhqs4AQd0boXyAfhwePDU]==>[${admintoken}]
+2025-08-07 15:57:13,463s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQzMiwibmJmIjoxNzU0NTUzNDMyLCJleHAiOjE3NTUxNTgyMzJ9.5ecxX-phmR5o3LlDu3d8ToGhqs4AQd0boXyAfhwePDU]==>[${admintoken}]
+2025-08-07 15:58:05,218s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.60 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200，实际: 200 
+ 变量提取结果：无变量提取
+2025-08-07 15:58:05,218s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.60 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200，实际: 200 
+ 变量提取结果：无变量提取
+2025-08-07 15:58:05,218s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.60 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200，实际: 200 
+ 变量提取结果：无变量提取
+2025-08-07 15:58:05,218s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[485.60 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200，实际: 200 
+ 变量提取结果：无变量提取
+2025-08-07 15:58:05,227s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io]==>[${admintoken}]
+2025-08-07 15:58:05,227s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io]==>[${admintoken}]
+2025-08-07 15:58:05,227s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io]==>[${admintoken}]
+2025-08-07 15:58:05,227s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1MzQ4MywibmJmIjoxNzU0NTUzNDgzLCJleHAiOjE3NTUxNTgyODN9.60TojA4hgxjV43WSLE96PhoXz4qzwiQoWzv1yKv66io]==>[${admintoken}]
+2025-08-07 17:38:48,848s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[486.86 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计7个, 通过5个, 失败2个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1OTUyNywibmJmIjoxNzU0NTU5NTI3LCJleHAiOjE3NTUxNjQzMjd9.KFHUFCqgtZkqXdZQFYf0iCkAchQ-vmWnZ8DZJJSjg6c'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: code_200 -> ✓ 通过: 状态码断言通过: 期望 200，实际 200
+断言4: time_5 -> ✓ 通过: 响应时间断言通过: 0.48s <= 5s
+断言5: jsonpath_$.msg=登录成功 -> ✓ 通过: JSONPath断言通过: '$.msg' 期望 登录成功，实际 登录成功
+断言6: header_Content-Typ -> ✗ 失败: 头部断言格式错误，缺少期望值：header_Content-Typ
+断言7: headerValue_Content-Type=application/json -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json，实际 application/json; charset=utf-8
+2025-08-07 17:38:48,848s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[486.86 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计7个, 通过5个, 失败2个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1OTUyNywibmJmIjoxNzU0NTU5NTI3LCJleHAiOjE3NTUxNjQzMjd9.KFHUFCqgtZkqXdZQFYf0iCkAchQ-vmWnZ8DZJJSjg6c'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: code_200 -> ✓ 通过: 状态码断言通过: 期望 200，实际 200
+断言4: time_5 -> ✓ 通过: 响应时间断言通过: 0.48s <= 5s
+断言5: jsonpath_$.msg=登录成功 -> ✓ 通过: JSONPath断言通过: '$.msg' 期望 登录成功，实际 登录成功
+断言6: header_Content-Typ -> ✗ 失败: 头部断言格式错误，缺少期望值：header_Content-Typ
+断言7: headerValue_Content-Type=application/json -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json，实际 application/json; charset=utf-8
+2025-08-07 17:38:48,848s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[486.86 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计7个, 通过5个, 失败2个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1OTUyNywibmJmIjoxNzU0NTU5NTI3LCJleHAiOjE3NTUxNjQzMjd9.KFHUFCqgtZkqXdZQFYf0iCkAchQ-vmWnZ8DZJJSjg6c'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: code_200 -> ✓ 通过: 状态码断言通过: 期望 200，实际 200
+断言4: time_5 -> ✓ 通过: 响应时间断言通过: 0.48s <= 5s
+断言5: jsonpath_$.msg=登录成功 -> ✓ 通过: JSONPath断言通过: '$.msg' 期望 登录成功，实际 登录成功
+断言6: header_Content-Typ -> ✗ 失败: 头部断言格式错误，缺少期望值：header_Content-Typ
+断言7: headerValue_Content-Type=application/json -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json，实际 application/json; charset=utf-8
+2025-08-07 17:38:48,848s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[486.86 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计7个, 通过5个, 失败2个
+断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': '登录成功', 'data': {'jwt': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU1OTUyNywibmJmIjoxNzU0NTU5NTI3LCJleHAiOjE3NTUxNjQzMjd9.KFHUFCqgtZkqXdZQFYf0iCkAchQ-vmWnZ8DZJJSjg6c'}}】包含断言通过: 包含键 'data'
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: code_200 -> ✓ 通过: 状态码断言通过: 期望 200，实际 200
+断言4: time_5 -> ✓ 通过: 响应时间断言通过: 0.48s <= 5s
+断言5: jsonpath_$.msg=登录成功 -> ✓ 通过: JSONPath断言通过: '$.msg' 期望 登录成功，实际 登录成功
+断言6: header_Content-Typ -> ✗ 失败: 头部断言格式错误，缺少期望值：header_Content-Typ
+断言7: headerValue_Content-Type=application/json -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json，实际 application/json; charset=utf-8
+2025-08-07 17:49:00,532s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.18 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计0个, 通过0个, 失败0个
+ 
+ 变量提取结果：无变量提取
+2025-08-07 17:49:00,532s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.18 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计0个, 通过0个, 失败0个
+ 
+ 变量提取结果：无变量提取
+2025-08-07 17:49:00,532s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.18 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计0个, 通过0个, 失败0个
+ 
+ 变量提取结果：无变量提取
+2025-08-07 17:49:00,532s ------------------------------------------------------- DJ-INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[498.18 ms]-执行通过. 
+ 校验结果：断言执行完成: 总计0个, 通过0个, 失败0个
+ 
+ 变量提取结果：无变量提取
+2025-08-07 17:49:00,537s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU2MDEzOSwibmJmIjoxNzU0NTYwMTM5LCJleHAiOjE3NTUxNjQ5Mzl9.jF_PfzZxVaBvHb5IBictqvrte23w_SYKpz3HHzaDA24]==>[${admintoken}]
+2025-08-07 17:49:00,537s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU2MDEzOSwibmJmIjoxNzU0NTYwMTM5LCJleHAiOjE3NTUxNjQ5Mzl9.jF_PfzZxVaBvHb5IBictqvrte23w_SYKpz3HHzaDA24]==>[${admintoken}]
+2025-08-07 17:49:00,537s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU2MDEzOSwibmJmIjoxNzU0NTYwMTM5LCJleHAiOjE3NTUxNjQ5Mzl9.jF_PfzZxVaBvHb5IBictqvrte23w_SYKpz3HHzaDA24]==>[${admintoken}]
+2025-08-07 17:49:00,537s ------------------------------------------------------- DJ-INFO:  已经取得[eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbmZvIjp7ImlkIjoxLCJuYW1lIjoiYWRtaW4xMjM0NTYiLCJyZW1lbWJlcl9wYXNzd29yZCI6IjEiLCJpc19hZG1pbiI6dHJ1ZX0sImlzcyI6Ind3dy5pZGNzbWFydC5jb20iLCJhdWQiOiJ3d3cuaWRjc21hcnQuY29tIiwiaXAiOiIxMjUuODAuMjAzLjI0MSIsImlhdCI6MTc1NDU2MDEzOSwibmJmIjoxNzU0NTYwMTM5LCJleHAiOjE3NTUxNjQ5Mzl9.jF_PfzZxVaBvHb5IBictqvrte23w_SYKpz3HHzaDA24]==>[${admintoken}]
+2025-08-07 17:49:52,373s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[476.98 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 17:49:52,373s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[476.98 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 17:49:52,373s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[476.98 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 17:49:52,373s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[476.98 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 18:01:20,185s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[726.11 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 18:01:20,185s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[726.11 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 18:01:20,185s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[726.11 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]
+2025-08-07 18:01:20,185s ------------------------------------------------------- DJ-ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[726.11 ms]-执行不通过.原因如下：
+ 断言格式错误：["contains_data","value_status=200","code_200","time_5","jsonpath_$.msg=登录成功","header_Content-Typ","headerValue_Content-Type=application/json; charset=utf-8]

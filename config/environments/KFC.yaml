@@ -1,0 +1,18 @@
+# ========================================
+# KFC 环境配置（非敏感信息）
+# ========================================
+
+# 数据库配置（敏感信息从环境变量读取）
+host: "101.35.248.14"
+port: 3306
+database: "101_35_248_14"
+charset: "utf8"
+
+# API 地址配置
+url: "http://kfc.idcsmart.com/admin"
+address: "http://kfc.idcsmart.com"
+
+# 用例文件配置
+case_file: "KFC"
+testcase: "KFC_测试用例.xlsx"
+

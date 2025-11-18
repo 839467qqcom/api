@@ -1,0 +1,20 @@
+# ========================================
+# DCIMS 环境配置（非敏感信息）
+# ========================================
+
+# 数据库配置（敏感信息从环境变量读取）
+host: ""
+port: 3306
+database: ""
+charset: "utf8"
+
+# API 地址配置
+url: "https://dcims.idcsmart.com/admin/v1"
+address: ""
+
+# 用例文件配置
+case_file: "DCIMS"  # 用例文件目录
+testcase: "DCIMS_测试用例.xlsx"  # 测试用例文件名
+
+
+

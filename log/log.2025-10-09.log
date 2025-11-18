@@ -1,0 +1,299 @@
+2025-10-09 15:13:03 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[183.49 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:13:04 - DJ - ERROR: 字典中[{"msg":"缺少认证令牌","status":401}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:13:04 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[82.53 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:13:54 - DJ - ERROR: 字典中[]没有键[$..data.jwt], 执行失败
+2025-10-09 15:14:42 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[107.38 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:14:43 - DJ - ERROR: 字典中[{"status":400,"msg":"参数错误: 字段remember_password的类型不匹配，预期类型为 int，但实际是 string","timestamp":1759994080}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:14:43 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[51.13 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:18:18 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[462.35 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.37s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:18:19 - DJ - ERROR: 字典中[{"status":400,"msg":"参数错误: 字段remember_password的类型不匹配，预期类型为 int，但实际是 string","timestamp":1759994296}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:18:19 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[55.44 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:21:14 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[101.75 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:21:15 - DJ - ERROR: 字典中[{"status":400,"msg":"参数错误: 字段remember_password的类型不匹配，预期类型为 int，但实际是 string","timestamp":1759994472}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:21:15 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[55.98 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:27:16 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[93.58 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:27:17 - DJ - ERROR: 字典中[{"status":400,"msg":"参数错误: 字段remember_password的类型不匹配，预期类型为 int，但实际是 string","timestamp":1759994834}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:27:17 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[44.40 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:29:03 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[104.09 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:29:04 - DJ - ERROR: 字典中[{"status":400,"msg":"参数错误: 字段remember_password的类型不匹配，预期类型为 int，但实际是 string","timestamp":1759994941}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:29:04 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[59.11 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:30:25 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[142.65 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0NCwic2Vzc2lvbl9rZXkiOiJncW9OWVl6R2puWkZyR3FiaWpuS2QwVXpkWGFna1RYWG5veC1Pa0xkVUgwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDU5OTgyMywibmJmIjoxNzU5OTk1MDIzLCJpYXQiOjE3NTk5OTUwMjN9.QxgHr2zMchgjoETrHrtZkcPMynAW4ANe_hMA2pE6G7U', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:30:25 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0NCwic2Vzc2lvbl9rZXkiOiJncW9OWVl6R2puWkZyR3FiaWpuS2QwVXpkWGFna1RYWG5veC1Pa0xkVUgwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDU5OTgyMywibmJmIjoxNzU5OTk1MDIzLCJpYXQiOjE3NTk5OTUwMjN9.QxgHr2zMchgjoETrHrtZkcPMynAW4ANe_hMA2pE6G7U","second_verify":0,"method":""},"timestamp":1759995023}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:30:25 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[45.30 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:33:06 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[172.47 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:33:07 - DJ - ERROR: 字典中[{"status":400,"msg":"JSON format error, please check parameter format","timestamp":1759995184}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:33:07 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[55.29 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:35:20 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[108.27 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:35:21 - DJ - ERROR: 字典中[{"status":400,"msg":"JSON format error, please check parameter format","timestamp":1759995318}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:35:21 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[52.60 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:39:34 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[110.85 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:39:35 - DJ - ERROR: 字典中[{"status":400,"msg":"JSON format error, please check parameter format","timestamp":1759995572}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:39:35 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[48.11 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:40:31 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[122.48 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:40:32 - DJ - ERROR: 字典中[{"status":400,"msg":"JSON format error, please check parameter format","timestamp":1759995629}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:40:32 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[44.89 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:42:35 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[127.73 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:42:36 - DJ - ERROR: 字典中[{"status":400,"msg":"JSON format error, please check parameter format","timestamp":1759995753}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:42:36 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[50.57 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:46:36 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[60.48 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+断言1: jsonpath_$.data&jwt -> ✗ 失败: JSONPath断言失败: 路径 '$.data' 未找到匹配项
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:46:37 - DJ - ERROR: 字典中[{"status":400,"msg":"JSON format error, please check parameter format","timestamp":1759995994}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:46:37 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[51.79 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:48:32 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[76.76 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0Nywic2Vzc2lvbl9rZXkiOiJGcmNQWkZiSmZVMzl4dGViWUQ4Z1pObUcwaS16cDhrMUFCWXZva0xoNFN3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMDkxMCwibmJmIjoxNzU5OTk2MTEwLCJpYXQiOjE3NTk5OTYxMTB9.wq-TbqthqW523Z8SsQVYsXAQD3WaDkFGFOP0WwTA_UA', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:48:32 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0Nywic2Vzc2lvbl9rZXkiOiJGcmNQWkZiSmZVMzl4dGViWUQ4Z1pObUcwaS16cDhrMUFCWXZva0xoNFN3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMDkxMCwibmJmIjoxNzU5OTk2MTEwLCJpYXQiOjE3NTk5OTYxMTB9.wq-TbqthqW523Z8SsQVYsXAQD3WaDkFGFOP0WwTA_UA","second_verify":0,"method":""},"timestamp":1759996110}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:48:32 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[61.04 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:49:13 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[70.88 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0OCwic2Vzc2lvbl9rZXkiOiJyQU5JSkNSbGo4OHNXMGNRcGpSSnlEeG1XaGg5WllMV1J1eUVSdWY2SFRBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMDk1MSwibmJmIjoxNzU5OTk2MTUxLCJpYXQiOjE3NTk5OTYxNTF9.VHR4M0wPzm69WRekf74dHYBqVae4tnNtHVZmoer5KNI', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:49:13 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0OCwic2Vzc2lvbl9rZXkiOiJyQU5JSkNSbGo4OHNXMGNRcGpSSnlEeG1XaGg5WllMV1J1eUVSdWY2SFRBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMDk1MSwibmJmIjoxNzU5OTk2MTUxLCJpYXQiOjE3NTk5OTYxNTF9.VHR4M0wPzm69WRekf74dHYBqVae4tnNtHVZmoer5KNI","second_verify":0,"method":""},"timestamp":1759996151}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:49:13 - DJ - ERROR: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[52.63 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+断言4: contains_data.list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.list' 中的键 'data' 不存在
+断言5: contains_data.count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 嵌套路径 'data.count' 中的键 'data' 不存在
+2025-10-09 15:54:48 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[80.05 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI0OSwic2Vzc2lvbl9rZXkiOiJCUVM1WmxFd2RlUHkxdTAtU3YzbWRXLWpqVDE2R18wMFVQY3M0OWNuckhjPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMTI4NiwibmJmIjoxNzU5OTk2NDg2LCJpYXQiOjE3NTk5OTY0ODZ9.iNIbesPew60J0fN3Tn8nfdLaBF7VhJNXrOa9-GHawBc', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:55:30 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[77.33 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1MCwic2Vzc2lvbl9rZXkiOiJFSTdVLUFBbnRQVHVOM2tjWE1Lb0ItZktZMnRIM0tCTW9yaVViV2lYc2IwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMTMyOCwibmJmIjoxNzU5OTk2NTI4LCJpYXQiOjE3NTk5OTY1Mjh9.9h75B-FFODGnhs_ULENC0ZkN8-kf6OSLgO6ub7UDnXs', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:55:52 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[72.61 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1MSwic2Vzc2lvbl9rZXkiOiJScEtqbG1fN2hjeGo5aU05TjF1Vjl0V2MxN3dwQ3hjVWpXMHUwM3NTVVM0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMTM0OSwibmJmIjoxNzU5OTk2NTQ5LCJpYXQiOjE3NTk5OTY1NDl9.0_hrRWFKEtbZ44u8mVriEwskdJ6zFUPCRN7WDny6zS0', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:56:55 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[81.22 ms]-执行不通过.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+断言1: jsonpath_$.data&jwt -> ✓ 通过: JSONPath断言通过: '$.data' 的值{'jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1Miwic2Vzc2lvbl9rZXkiOiJFREh5SU80NjRkNU5ScklTemxXbk5kbWRYUWx4MVBMUkdKblRsalhXU0pVPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMTQxMywibmJmIjoxNzU5OTk2NjEzLCJpYXQiOjE3NTk5OTY2MTN9.qEjzbxo6_SJcr6kbx7NwHGtTY2EmIAdllUrAqKwdJaI', 'second_verify': 0, 'method': ''}包含期望值 jwt 
+断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+断言4: headerValue_Content-Type=application/json; charset=utf-8 -> ✗ 失败: 响应头值断言失败: 'Content-Type' 期望 application/json; charset=utf-8，实际 application/json; charset=UTF-8
+2025-10-09 15:56:56 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1Miwic2Vzc2lvbl9rZXkiOiJFREh5SU80NjRkNU5ScklTemxXbk5kbWRYUWx4MVBMUkdKblRsalhXU0pVPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMTQxMywibmJmIjoxNzU5OTk2NjEzLCJpYXQiOjE3NTk5OTY2MTN9.qEjzbxo6_SJcr6kbx7NwHGtTY2EmIAdllUrAqKwdJaI","second_verify":0,"method":""},"timestamp":1759996613}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 15:57:51 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[75.74 ms]-执行不通过.原因如下：
+ 断言格式错误：None
+2025-10-09 15:57:51 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1Mywic2Vzc2lvbl9rZXkiOiJoOFB0YmVBY1lLU3RUSGV4X0pzVUw1SmVtbHUxQV9hYnlPby1Eb2VmM0FVPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMTQ2OSwibmJmIjoxNzU5OTk2NjY5LCJpYXQiOjE3NTk5OTY2Njl9.cbimiTJTJXugrc8P66VqYZvoaquVmC9Sghh4CHvAHiE","second_verify":0,"method":""},"timestamp":1759996669}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:12:32 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[113.37 ms]-执行不通过.原因如下：
+ 断言格式错误：None
+2025-10-09 16:12:33 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1NCwic2Vzc2lvbl9rZXkiOiItLXNxYl9NdTRydEtuZE95enI0Z0xPMGwycVpoUTA3RE1hSTBlSFN5a0trPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMjM1MCwibmJmIjoxNzU5OTk3NTUwLCJpYXQiOjE3NTk5OTc1NTB9.CkdqY9fpVGxGKqVtGnRQ6b3w62WvKkeqrtJW_4ZTsS0","second_verify":0,"method":""},"timestamp":1759997550}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:13:05 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[72.30 ms]-执行不通过.原因如下：
+ 断言格式错误：None
+2025-10-09 16:13:05 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1NSwic2Vzc2lvbl9rZXkiOiI3NnZ6dDhzclZRYUZ5MFBKTGNNbHN6Y1JGSkR4Q1lqdGtQaTFRWXZpSlVNPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMjM4MywibmJmIjoxNzU5OTk3NTgzLCJpYXQiOjE3NTk5OTc1ODN9.7eafY2Uskp454ng83tX7mQUrBCKcrFhIKvZqbLoQpUM","second_verify":0,"method":""},"timestamp":1759997583}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:22:35 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[91.70 ms]-执行不通过.原因如下：
+ 断言格式错误：None
+2025-10-09 16:22:36 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1Niwic2Vzc2lvbl9rZXkiOiJBa3VGcHlBYkxYWVNXTzl0NlFxcm5iWFI3V25YUXJHVXBoZkwzV2dqMVdBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMjk1MywibmJmIjoxNzU5OTk4MTUzLCJpYXQiOjE3NTk5OTgxNTN9.As0UO5fy6oH2gImVGiUku-CdCl31ndf_sZfYQRrxCKQ","second_verify":0,"method":""},"timestamp":1759998153}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:26:09 - DJ - ERROR: 接口名称：【登录】-响应状态码[200]-接口响应时间[88.15 ms]-执行不通过.原因如下：
+ 断言格式错误：None
+2025-10-09 16:26:09 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1Nywic2Vzc2lvbl9rZXkiOiI3cmUxYjdSTHkwelgtS05MRzZHR2puU05pZlVqLVBWSWhfMG0wYWs3aW04PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMzE2NywibmJmIjoxNzU5OTk4MzY3LCJpYXQiOjE3NTk5OTgzNjd9.9lsxRr8pBhBw62ctEUI4TLYCO1caxI2EGY1CGYYiDMw","second_verify":0,"method":""},"timestamp":1759998367}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:27:29 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[71.99 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 16:27:29 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1OCwic2Vzc2lvbl9rZXkiOiJZM2tidW9jQ3VLU1ZCUFFBdW5rUS1nUXppT3NOQzBwZk9ESnNqRndnbTRrPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMzI0NywibmJmIjoxNzU5OTk4NDQ3LCJpYXQiOjE3NTk5OTg0NDd9.r2XDmuYEb183uyEyM_4hySqytblUZ_V2n5XObr_bZfU","second_verify":0,"method":""},"timestamp":1759998447}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:31:43 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[156.85 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 16:31:43 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI1OSwic2Vzc2lvbl9rZXkiOiJSbzhNdVBvQl8xX2ozcnpOTTNuWW1rV1VueVc3S0VnM1lhMkVRS1ZWV0F3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMzUwMSwibmJmIjoxNzU5OTk4NzAxLCJpYXQiOjE3NTk5OTg3MDF9.XqClPBQZlUpMrBo19k5YAl6oIya7GdYUuCkUf28GMJc","second_verify":0,"method":""},"timestamp":1759998701}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 16:32:32 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[82.94 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 16:32:32 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2MCwic2Vzc2lvbl9rZXkiOiJQMUVPQkhFSEZUZDBfbnBISlFjMnFwUFM3SDlCRkFqSUxrYlZ5dzZhWnZFPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwMzU1MCwibmJmIjoxNzU5OTk4NzUwLCJpYXQiOjE3NTk5OTg3NTB9.CxLhwDrrlnlfhS8e10kH8_jCM19Y4SUEZqo1GjteDHU","second_verify":0,"method":""},"timestamp":1759998750}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:21:19 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[102.31 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:21:19 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2MSwic2Vzc2lvbl9rZXkiOiIzSEtRdXA5Ti0tVTBxNlJ3WGFOTEtwQTdoQU1sRFZPdmZQV3RkcFhpQVhBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwNjQ3NiwibmJmIjoxNzYwMDAxNjc2LCJpYXQiOjE3NjAwMDE2NzZ9.M_yTyVqvx2pdiAdVMgHYPtfSHveOaCufzDhoWpF65to","second_verify":0,"method":""},"timestamp":1760001676}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:23:41 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[75.69 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:23:41 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2Miwic2Vzc2lvbl9rZXkiOiJ5eElsQ2oyN09acnliN2cwQ1hYdFhaZDlLeGwxRzJlc0NnalN3bmVOYktJPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwNjYxOSwibmJmIjoxNzYwMDAxODE5LCJpYXQiOjE3NjAwMDE4MTl9.9hRj7ulTQE3ouC4bdSnuulwsArAlKzF7NFembGAtcP4","second_verify":0,"method":""},"timestamp":1760001819}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:24:37 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[83.37 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:24:37 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2Mywic2Vzc2lvbl9rZXkiOiItelJITV9UQVVPZ2FKSldPZnpmR242OElMU3dCUHgyVWh5Nm1fU0N0bU40PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwNjY3NSwibmJmIjoxNzYwMDAxODc1LCJpYXQiOjE3NjAwMDE4NzV9.SGbR5zmmuUuL3eHW6ma479ycxxUIHQIl8R2a88q_1nI","second_verify":0,"method":""},"timestamp":1760001875}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:24:58 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[74.87 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:24:58 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2NCwic2Vzc2lvbl9rZXkiOiJCSlVhTlJFaFZyUGdkRmVVSUtEeXJfMW1INHJwVEFmTWJSU3lCYUJmNDF3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwNjY5NiwibmJmIjoxNzYwMDAxODk2LCJpYXQiOjE3NjAwMDE4OTZ9.r8RIfQWzISvXvz0DIix6WJA6aSK0RC1FfY0NKQR_mVY","second_verify":0,"method":""},"timestamp":1760001896}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:31:32 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[83.42 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:31:32 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2NSwic2Vzc2lvbl9rZXkiOiJGMkJkekFITUJqSGw3bElxVTVZQ1hiV3RVRGVMUUhXNzNHVnFFRTM2SGRNPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwNzA5MCwibmJmIjoxNzYwMDAyMjkwLCJpYXQiOjE3NjAwMDIyOTB9.wDPHcmPwLvoulDQPIAgld0RCxWK-qbveI-aEmLBxWCs","second_verify":0,"method":""},"timestamp":1760002290}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:53:08 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[120.89 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:53:08 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2Niwic2Vzc2lvbl9rZXkiOiJDb3pRaE1PVzdGR2huNjFOZGY5MFVOY0tGVHBDR2JCR053ajFkY0lmaTNrPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwODM4NiwibmJmIjoxNzYwMDAzNTg2LCJpYXQiOjE3NjAwMDM1ODZ9.r9YmZVY3gwn7M4XdQLxcF5MqhNwhgplUtUi76bb9C3U","second_verify":0,"method":""},"timestamp":1760003586}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:54:30 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[88.69 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:54:30 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2Nywic2Vzc2lvbl9rZXkiOiJlYk1KLUxTRnlXMFVDV2s1bzlhOWNKREE1Wk5SSlFESGU2dG5HdFRYY3F3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwODQ2OCwibmJmIjoxNzYwMDAzNjY4LCJpYXQiOjE3NjAwMDM2Njh9.8K6c9_42XlfYuew09fdtWqSNxCRxE66DYSgGMaZ-Qhg","second_verify":0,"method":""},"timestamp":1760003668}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:58:19 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[73.82 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:58:19 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2OCwic2Vzc2lvbl9rZXkiOiItTEEtZ0FwdFZnMkdGUXF6NlNGWUFYazNOb08zcC1jbTRjTWRkUUpsZm5zPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwODY5NywibmJmIjoxNzYwMDAzODk3LCJpYXQiOjE3NjAwMDM4OTd9.oS0c_IHPQCNIxy01fdtPlKtxoze46tLNOOK7tVGIk1E","second_verify":0,"method":""},"timestamp":1760003897}\n]没有键[$..data.jwt], 执行失败
+2025-10-09 17:59:49 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[68.70 ms]-执行通过. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-09 17:59:49 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI2OSwic2Vzc2lvbl9rZXkiOiJNeGthWlhPWFVCNjUzUGFFeDdlZjlTdnhWWVhrNjViaDdSZXlXajlNdlFBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDYwODc4NywibmJmIjoxNzYwMDAzOTg3LCJpYXQiOjE3NjAwMDM5ODd9.KZBZI4x69YadwHuAryoAF-uMGpCRq9FNDrta576tNUg]==>[${admintoken}]

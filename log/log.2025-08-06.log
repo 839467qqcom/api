@@ -1,0 +1,159 @@
+2025-08-06 10:03:27,323s ------------------------------------------------------- DJ-ERROR: 获取用例失败: YAML文件加载失败: YAML文件格式不正确，应为数组或包含test_cases/cases字段的对象
+2025-08-06 10:19:30,844s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：getattr(): attribute name must be string
+2025-08-06 10:19:30,844s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：getattr(): attribute name must be string
+2025-08-06 10:21:34,859s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：getattr(): attribute name must be string
+2025-08-06 10:21:34,859s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：getattr(): attribute name must be string
+2025-08-06 10:24:25,978s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：'NoneType' object has no attribute 'lower'
+2025-08-06 10:24:25,978s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：'NoneType' object has no attribute 'lower'
+2025-08-06 10:25:15,539s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:25:15,539s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:29:31,702s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:29:31,702s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:32:30,844s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:32:30,844s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:33:13,405s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:33:13,405s ------------------------------------------------------- DJ-ERROR: 用例[001]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:46:28,077s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:46:28,077s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:46:28,697s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:46:28,697s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:47:57,680s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:47:57,680s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:47:58,363s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:47:58,363s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:47:58,382s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:47:58,382s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:48:59,735s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:48:59,735s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:49:00,327s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:49:00,327s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:49:00,345s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:49:00,345s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:51:20,965s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:51:20,965s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:51:21,748s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:51:21,748s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:51:21,768s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:51:21,768s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:53:09,522s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:53:09,522s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:53:10,238s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:53:10,238s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:53:10,268s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:53:10,268s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:53:45,827s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:53:45,827s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:53:46,480s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:53:46,480s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:53:46,500s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:53:46,500s ------------------------------------------------------- DJ-ERROR: 用例[003]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:55:56,000s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：local variable 'jsondata' referenced before assignment
+2025-08-06 10:55:56,000s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+keyword:执行失败，估计不存在，异常：local variable 'jsondata' referenced before assignment
+2025-08-06 10:55:56,606s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:55:56,606s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:55:56,628s ------------------------------------------------------- DJ-ERROR: 用例[#]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:55:56,628s ------------------------------------------------------- DJ-ERROR: 用例[#]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:57:42,414s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:57:42,414s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:57:43,021s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:57:43,021s ------------------------------------------------------- DJ-ERROR: 字典中[${response}]没有键[$..data.jwt], 执行失败
+2025-08-06 10:57:43,045s ------------------------------------------------------- DJ-ERROR: 用例[#]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:57:43,045s ------------------------------------------------------- DJ-ERROR: 用例[#]:[获取管理员列表]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 10:59:15,939s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 10:59:15,939s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:00:05,153s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:00:05,153s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:01:37,430s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:01:37,430s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:02:41,207s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:02:41,207s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:04:48,483s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:04:48,483s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:05:25,711s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:05:25,711s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:06:11,127s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:06:11,127s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:07:26,543s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:07:26,543s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:08:03,411s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:08:03,411s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:08:47,565s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 11:08:47,565s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: {"Content-Type"
+2025-08-06 11:10:59,832s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: Content-Type
+2025-08-06 11:10:59,832s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败Invalid return character or leading space in header: Content-Type
+2025-08-06 11:13:09,020s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:13:09,020s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败local variable 'keys' referenced before assignment
+2025-08-06 11:14:05,910s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败the JSON object must be str, bytes or bytearray, not dict
+2025-08-06 11:14:05,910s ------------------------------------------------------- DJ-ERROR: 用例[001]:[登录]执行不通过.原因如下：
+发送请求失败the JSON object must be str, bytes or bytearray, not dict
+2025-08-06 11:17:35,871s ------------------------------------------------------- DJ-ERROR: 获取用例失败: string indices must be integers
+2025-08-06 11:18:01,573s ------------------------------------------------------- DJ-ERROR: 获取用例失败: string indices must be integers

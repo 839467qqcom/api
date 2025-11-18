@@ -1,0 +1,118 @@
+2025-11-14 17:03:38 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[86.12 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:38 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjYzMywic2Vzc2lvbl9rZXkiOiIzWW9OaXU2cmpuTmtGWm92VlpPWGlhZ1FPeHJQYmFQZ2ZNdEF0NW0zZkIwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImxvZ2luX2lwIjoiMTkyLjE2OC4zLjE3MiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MzE3MTAwNSwibmJmIjoxNzYzMTExMDA1LCJpYXQiOjE3NjMxMTEwMDV9.spLv0TFmCcvdfeb9r0A5PVKpdS49nek7ajbZUSJfjHk]==>[${admintoken}]
+2025-11-14 17:03:38 - DJ - INFO: 伪数据[用户名][yang31]已保存到测试用例的变量池[ipv4_rent_group_name]中。
+2025-11-14 17:03:39 - DJ - INFO: 伪数据[用户名][pengtao]已保存到测试用例的变量池[ipv4_group_name]中。
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【创建IPv4分组】-响应状态码[200]-接口响应时间[84.20 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Create successful', 'data': {'id': 70}, 'timestamp': 1763111005}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO:  已经取得[70]==>[${ipv4_group_id}]
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【创建IPv4租用分组】-响应状态码[200]-接口响应时间[77.99 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'IP租用分组创建成功', 'data': {'id': 31}, 'timestamp': 1763111005}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO:  已经取得[31]==>[${ipv4_rent_group_id}]
+2025-11-14 17:03:39 - DJ - INFO: 伪数据[用户名][qiang09]已保存到测试用例的变量池[ipv6_rent_group_name]中。
+2025-11-14 17:03:39 - DJ - INFO: 伪数据[用户名][juan50]已保存到测试用例的变量池[ipv6_group_name]中。
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【创建IPv6分组】-响应状态码[200]-接口响应时间[82.37 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Create successful', 'data': {'id': 33}, 'timestamp': 1763111006}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO:  已经取得[33]==>[${ipv6_group_id}]
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【创建IPv6租用分组】-响应状态码[200]-接口响应时间[85.86 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'IP租用分组创建成功', 'data': {'id': 32}, 'timestamp': 1763111006}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO:  已经取得[32]==>[${ipv6_rent_group_id}]
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【更新IP租用分组】-响应状态码[200]-接口响应时间[81.99 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【删除IP租用分组】-响应状态码[200]-接口响应时间[74.76 ms]-执行通过 ✅. 
+ 校验结果：用例[14]：[删除IP租用分组]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO: 接口名称：【创建IPv4租用分组】-响应状态码[200]-接口响应时间[72.00 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'IP租用分组创建成功', 'data': {'id': 33}, 'timestamp': 1763111006}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:39 - DJ - INFO:  已经取得[33]==>[${ipv4_rent_group_id}]
+2025-11-14 17:03:40 - DJ - INFO: 接口名称：【获取IP租用分组列表】-响应状态码[200]-接口响应时间[74.67 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'yang31', 'ip_version': 'ipv4', 'ip_type': ['public'], 'notes': '备注', 'assign_num': 0, 'ip_group': [{'id': 70, 'name': 'pengtao'}]}, {'id': 32, 'name': 'qiang09', 'ip_version': 'ipv6', 'ip_type': ['public'], 'notes': '备注', 'assign_num': 0, 'ip_group': [{'id': 33, 'name': 'juan50'}]}, {'id': 13, 'name': 'ipv6销售分组DSADDsd sdd ', 'ip_version': 'ipv6', 'ip_type': ['public'], 'notes': '111222\n萨达撒\n萨达\n萨达3的萨达萨达 \n\n萨达\n的撒的', 'assign_num': 0, 'ip_group': [{'id': 10, 'name': 'ipv6分组一'}, {'id': 11, 'name': 'ipv6分组二'}]}, {'id': 12, 'name': 'IPV6销售分组', 'ip_version': 'ipv6', 'ip_type': ['public'], 'notes': '萨达的撒', 'assign_num': 2, 'ip_group': [{'id': 10, 'name': 'ipv6分组一'}, {'id': 11, 'name': 'ipv6分组二'}]}, {'id': 11, 'name': 'IPV4销售分组', 'ip_version': 'ipv4', 'ip_type': ['public', 'client'], 'notes': '11112222', 'assign_num': 9, 'ip_group': [{'id': 14, 'name': 'ipv4高防IP'}, {'id': 19, 'name': 'ipv4通用IP'}]}, {'id': 9, 'name': 'IPV4销售分组111', 'ip_version': 'ipv4', 'ip_type': ['public', 'client', 'ipmi', 'intranet', 'other', 'temp'], 'notes': '45445445456456', 'assign_num': 0, 'ip_group': [{'id': 14, 'name': 'ipv4高防IP'}, {'id': 19, 'name': 'ipv4通用IP'}]}, {'id': 7, 'name': '发呢组11', 'ip_version': 'ipv4', 'ip_type': ['public', 'client', 'ipmi', 'intranet', 'other', 'temp'], 'notes': 'inaaaaaa', 'assign_num': 0, 'ip_group': [{'id': 14, 'name': 'ipv4高防IP'}, {'id': 19, 'name': 'ipv4通用IP'}, {'id': 64, 'name': 'yang81'}, {'id': 65, 'name': 'yijie'}, {'id': 66, 'name': 'chenli'}]}, {'id': 5, 'name': '并火段11却', 'ip_version': 'ipv6', 'ip_type': ['public'], 'notes': 'in', 'assign_num': 0, 'ip_group': [{'id': 11, 'name': 'ipv6分组二'}]}], 'count': 8}, 'timestamp': 1763111006}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:40 - DJ - INFO: 伪数据[姓名][杨红梅]已保存到测试用例的变量池[nick_name]中。
+2025-11-14 17:03:40 - DJ - INFO: 伪数据[用户名][sguo]已保存到测试用例的变量池[name]中。
+2025-11-14 17:03:40 - DJ - INFO: 伪数据[手机号][15056816548]已保存到测试用例的变量池[phone]中。
+2025-11-14 17:03:40 - DJ - INFO: 接口名称：【添加客户】-响应状态码[200]-接口响应时间[78.72 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Create successful', 'data': {'id': 44}, 'timestamp': 1763111007}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:40 - DJ - INFO:  已经取得[44]==>[${clientid}]
+2025-11-14 17:03:40 - DJ - INFO: 伪数据[用户名][yang20]已保存到测试用例的变量池[ipv4_rent_name]中。
+2025-11-14 17:03:40 - DJ - INFO: 接口名称：【创建IPv4租用】-响应状态码[200]-接口响应时间[77.64 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'IP租用创建成功', 'data': {'id': 38}, 'timestamp': 1763111007}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:40 - DJ - INFO:  已经取得[38]==>[${ipv4_rent_id}]
+2025-11-14 17:03:41 - DJ - INFO: 伪数据[用户名][lxu]已保存到测试用例的变量池[ipv6_rent_name]中。
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【创建IPv6租用】-响应状态码[200]-接口响应时间[89.06 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'IP租用创建成功', 'data': {'id': 39}, 'timestamp': 1763111007}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO:  已经取得[39]==>[${ipv6_rent_id}]
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【更新IP租用】-响应状态码[200]-接口响应时间[76.03 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【添加IP段】-响应状态码[200]-接口响应时间[101.96 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Create successful', 'data': {'IpSegment': [{'id': 116, 'name': '192.166.2.0/28'}]}, 'timestamp': 1763111007}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO:  已经取得[116]==>[${IpSegment_id}]
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【子网列表】-响应状态码[200]-接口响应时间[136.49 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Get successful', 'data': {'list': [{'auto_allot': 0, 'completion': False, 'custom_field_26': '', 'custom_field_29': '', 'dns1': '1.1.1.1', 'dns2': '2.2.2.2', 'fault_num': 0, 'free_num': 16, 'gateway': '192.166.2.1', 'house': [{'id': 7, 'name': '重庆渝北机房1'}], 'id': 912, 'ip_group_id': 70, 'ip_group_name': 'pengtao', 'name': '192.166.2.0/28', 'netmask': '255.255.255.240', 'notes': '444', 'total_num': 16, 'type': 'public', 'used_num': 0, 'used_percent': '0.00', 'vlan': '100'}], 'count': 1}, 'timestamp': 1763111008}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO:  已经取得[912]==>[${ip_subnet_id}]
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【分配完整子网】-响应状态码[200]-接口响应时间[96.38 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【获取IP租用IP列表】-响应状态码[200]-接口响应时间[71.10 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计2个, 通过2个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Get successful', 'data': {'list': [{'id': 912, 'name': '192.166.2.0/28', 'type': 'public', 'ip_group_name': 'pengtao', 'count': 16, 'as_subnet': True, 'ip': [{'id': 164537, 'ip': '192.166.2.0', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164538, 'ip': '192.166.2.1', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164539, 'ip': '192.166.2.2', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164540, 'ip': '192.166.2.3', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164541, 'ip': '192.166.2.4', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164542, 'ip': '192.166.2.5', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164543, 'ip': '192.166.2.6', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164544, 'ip': '192.166.2.7', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164545, 'ip': '192.166.2.8', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164546, 'ip': '192.166.2.9', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164547, 'ip': '192.166.2.10', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164548, 'ip': '192.166.2.11', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164549, 'ip': '192.166.2.12', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164550, 'ip': '192.166.2.13', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164551, 'ip': '192.166.2.14', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}, {'id': 164552, 'ip': '192.166.2.15', 'assign_time': 1763111008, 'is_primary': 0, 'is_secondary': 0, 'as': '', 'ptr': '', 'ns': ''}]}], 'count': 1}, 'timestamp': 1763111008}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【日志】-响应状态码[200]-接口响应时间[66.66 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【空闲】-响应状态码[200]-接口响应时间[81.59 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【删除IP段】-响应状态码[200]-接口响应时间[87.73 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:41 - DJ - INFO: 接口名称：【批量删除IP租用】-响应状态码[200]-接口响应时间[77.49 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-11-14 17:03:42 - DJ - INFO: 接口名称：【删除IP租用分组】-响应状态码[200]-接口响应时间[72.45 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取

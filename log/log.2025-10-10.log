@@ -1,0 +1,1463 @@
+2025-10-10 14:52:38 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[72.09 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:38 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5Miwic2Vzc2lvbl9rZXkiOiJBQUhqWEJMazhyRDlydGFmM05IVGg3cENzb1Z6TVcyN2F4YjFSWE1fbGpjPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4Mzk1NSwibmJmIjoxNzYwMDc5MTU1LCJpYXQiOjE3NjAwNzkxNTV9._6_Bk1uMY1DMe569cHnVX_j_788Ygs5E6_JHMPIFAvk]==>[${admintoken}]
+2025-10-10 14:52:38 - DJ - INFO: 接口名称：【获取验证码接口列表】-响应状态码[200]-接口响应时间[66.55 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计5个, 通过5个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Get successful', 'data': {'count': 1, 'list': [{'author': '智简魔方', 'author_url': '', 'description': '智简魔方官方图形验证码插件，支持数字、字母和混合验证码', 'description_url': '', 'help_url': 'https://www.idcsmart.com', 'id': 754, 'name': 'IdcsmartCaptcha', 'status': 1, 'title': '智简魔方图形验证码', 'version': '1.0.0'}]}, 'timestamp': 1760079155}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Get successful', 'data': {'count': 1, 'list': [{'author': '智简魔方', 'author_url': '', 'description': '智简魔方官方图形验证码插件，支持数字、字母和混合验证码', 'description_url': '', 'help_url': 'https://www.idcsmart.com', 'id': 754, 'name': 'IdcsmartCaptcha', 'status': 1, 'title': '智简魔方图形验证码', 'version': '1.0.0'}]}, 'timestamp': 1760079155}】包含断言通过: 包含嵌套键 'data.list'
+---断言5: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Get successful', 'data': {'count': 1, 'list': [{'author': '智简魔方', 'author_url': '', 'description': '智简魔方官方图形验证码插件，支持数字、字母和混合验证码', 'description_url': '', 'help_url': 'https://www.idcsmart.com', 'id': 754, 'name': 'IdcsmartCaptcha', 'status': 1, 'title': '智简魔方图形验证码', 'version': '1.0.0'}]}, 'timestamp': 1760079155}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:38 - DJ - ERROR: 接口名称：【管理员列表】-响应状态码[200]-接口响应时间[74.12 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760079156}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760079156}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760079156}】包含断言不通过: 不包含键 'count'
+2025-10-10 14:52:39 - DJ - ERROR: 接口名称：【添加管理员】-响应状态码[200]-接口响应时间[49.16 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.msg=添加成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=添加成功
+2025-10-10 14:52:39 - DJ - ERROR: 字典中[{"msg":"认证令牌无效或已过期","status":401}]没有键[$..data.id], 执行失败
+2025-10-10 14:52:39 - DJ - INFO: 接口名称：【添加管理员 - 参数验证】-响应状态码[200]-接口响应时间[45.41 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:39 - DJ - ERROR: 接口名称：【获取单个管理员】-响应状态码[200]-接口响应时间[61.23 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Invalid administrator ID', 'timestamp': 1760079156}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 14:52:39 - DJ - ERROR: 接口名称：【修改管理员】-响应状态码[200]-接口响应时间[55.88 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:39 - DJ - INFO: 接口名称：【修改管理员 - 参数验证】-响应状态码[200]-接口响应时间[50.13 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:39 - DJ - ERROR: 接口名称：【删除管理员】-响应状态码[200]-接口响应时间[70.94 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【管理员状态切换】-响应状态码[200]-接口响应时间[55.00 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:40 - DJ - INFO: 接口名称：【管理员状态切换 - 参数验证】-响应状态码[200]-接口响应时间[85.14 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【修改管理员密码】-响应状态码[200]-接口响应时间[46.96 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:40 - DJ - INFO: 接口名称：【修改管理员密码 - 参数验证】-响应状态码[200]-接口响应时间[58.71 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【修改管理员操作密码】-响应状态码[200]-接口响应时间[45.55 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:40 - DJ - INFO: 接口名称：【修改管理员操作密码 - 参数验证】-响应状态码[200]-接口响应时间[49.66 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【修改管理员姓名】-响应状态码[200]-接口响应时间[42.55 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:40 - DJ - INFO: 接口名称：【修改管理员姓名 - 参数验证】-响应状态码[200]-接口响应时间[44.73 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【验证原手机】-响应状态码[200]-接口响应时间[50.61 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.msg=添加成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=添加成功
+2025-10-10 14:52:40 - DJ - INFO: 接口名称：【验证原手机 - 参数验证】-响应状态码[200]-接口响应时间[50.88 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【修改手机】-响应状态码[200]-接口响应时间[64.16 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:40 - DJ - INFO: 接口名称：【修改手机 - 参数验证】-响应状态码[200]-接口响应时间[100.56 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:40 - DJ - ERROR: 接口名称：【验证原邮箱】-响应状态码[200]-接口响应时间[49.69 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.msg=添加成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=添加成功
+2025-10-10 14:52:41 - DJ - INFO: 接口名称：【验证原邮箱 - 参数验证】-响应状态码[200]-接口响应时间[44.52 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【修改邮箱】-响应状态码[200]-接口响应时间[46.47 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:41 - DJ - INFO: 接口名称：【修改邮箱 - 参数验证】-响应状态码[200]-接口响应时间[45.64 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:41 - DJ - INFO: 接口名称：【获取TOTP密钥】-响应状态码[200]-接口响应时间[56.62 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计3个, 通过3个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'secret': 'ULW7UCHS4L3A4PQ6ZQRTBRMMMOCN5VTWIABWVQXSZBVCKJL7BREQ', 'url': 'otpauth://totp/dujin?secret=ULW7UCHS4L3A4PQ6ZQRTBRMMMOCN5VTWIABWVQXSZBVCKJL7BREQ&issuer=idcsmart'}, 'timestamp': 1760079158}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【绑定TOTP】-响应状态码[200]-接口响应时间[43.35 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:41 - DJ - INFO: 接口名称：【绑定TOTP - 参数验证】-响应状态码[200]-接口响应时间[43.80 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【解绑TOTP】-响应状态码[200]-接口响应时间[61.70 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【管理员解绑其他管理员TOTP】-响应状态码[200]-接口响应时间[64.85 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【管理员解锁其他管理员】-响应状态码[200]-接口响应时间[52.59 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.05s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[54.23 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760079158}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760079158}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760079158}】包含断言不通过: 不包含键 'count'
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[42.87 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: jsonpath_$.msg=添加成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=添加成功
+2025-10-10 14:52:41 - DJ - ERROR: 字典中[{"msg":"认证令牌无效或已过期","status":401}]没有键[$..data.id], 执行失败
+2025-10-10 14:52:41 - DJ - INFO: 接口名称：【添加管理员分组 - 参数验证】-响应状态码[200]-接口响应时间[59.15 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:41 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[83.17 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Invalid role ID', 'timestamp': 1760079159}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 14:52:42 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[52.53 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过1个, 失败3个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.msg=修改成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=修改成功
+2025-10-10 14:52:42 - DJ - INFO: 接口名称：【修改管理员分组 - 参数验证】-响应状态码[200]-接口响应时间[243.73 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: contains_msg -> ✓ 通过: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言通过: 包含键 'msg' 
+ 变量提取结果：无变量提取
+2025-10-10 14:52:42 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[64.54 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:14:19 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[95.26 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:14:19 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5Mywic2Vzc2lvbl9rZXkiOiJqc2NUNDlZRmZFSFJWSHVzRDh5d1hCUklxczBiVnp2OTBQVFNRVXFBN2E0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NTI1NiwibmJmIjoxNzYwMDgwNDU2LCJpYXQiOjE3NjAwODA0NTZ9.kqeCZCSTZWk_qkjeDXHtz0iMO5Tq2Dt_GnQu5MVBmkE]==>[${admintoken}]
+2025-10-10 15:14:19 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[85.01 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760080456}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760080456}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760080456}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:14:19 - DJ - INFO: 伪数据[用户名][pingpan]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:14:19 - DJ - ERROR: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[82.33 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Create successful', 'timestamp': 1760080457}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 15:14:19 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760080457}]没有键[$..data.id], 执行失败
+2025-10-10 15:14:20 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[78.78 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:14:20 - DJ - INFO: 伪数据[用户名][duangang]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:14:20 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[45.26 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:14:20 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[61.50 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:19:18 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[78.02 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:19:18 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5NCwic2Vzc2lvbl9rZXkiOiJaQmdIclFQZWtsWk1hZmFLVG1hVk9lWElleGFhQmxpVHY5UnM3RVpYaEF3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NTU1NSwibmJmIjoxNzYwMDgwNzU1LCJpYXQiOjE3NjAwODA3NTV9.Y7IAgEbxUSeRep58dJDLQy-US0k47Yx3WVq45MpBtGc]==>[${admintoken}]
+2025-10-10 15:19:18 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[66.87 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760080755}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760080755}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760080755}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:19:19 - DJ - INFO: 伪数据[用户名][guiying38]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:19:19 - DJ - ERROR: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[68.11 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Create successful', 'timestamp': 1760080756}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 15:19:19 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760080756}]没有键[$..data.id], 执行失败
+2025-10-10 15:19:19 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[69.75 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:19:19 - DJ - INFO: 伪数据[用户名][penglei]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:19:19 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[83.20 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 15:19:20 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[107.86 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.10s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:28:00 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[79.72 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:28:00 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5NSwic2Vzc2lvbl9rZXkiOiJkWmdQM3VnUTMzeG1OVTk0OXZiVS13cTJCcEVZdW1PTmNQNnBWdnlLY3VjPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NjA3NywibmJmIjoxNzYwMDgxMjc3LCJpYXQiOjE3NjAwODEyNzd9.owsunEeZk0tBT7Cx0K9OViUsJV8ISs-fNRDNL9oLY90]==>[${admintoken}]
+2025-10-10 15:28:00 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[67.98 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760081277}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760081277}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760081277}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:28:01 - DJ - INFO: 伪数据[用户名][guiying48]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:28:01 - DJ - ERROR: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[84.66 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Create successful', 'timestamp': 1760081278}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 15:28:01 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760081278}]没有键[$..data.id], 执行失败
+2025-10-10 15:28:01 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[64.39 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:28:01 - DJ - INFO: 伪数据[用户名][jun11]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:28:01 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[39.71 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:28:01 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[56.28 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.05s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:29:20 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[87.15 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:29:20 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5Niwic2Vzc2lvbl9rZXkiOiJyTnNVc2RKTGhKLWlmVlpsNDRxMjdrcHZqUkMwNi1HNjZaX2ZWdHZER1VJPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NjE1NywibmJmIjoxNzYwMDgxMzU3LCJpYXQiOjE3NjAwODEzNTd9.9qh_n8R201feYW4fkbHVFYDB6FFgJPgIwZKHMDL96wM]==>[${admintoken}]
+2025-10-10 15:29:20 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[58.24 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:29:21 - DJ - INFO: 伪数据[用户名][bluo]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:29:21 - DJ - ERROR: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[73.07 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Create successful', 'timestamp': 1760081358}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 15:29:21 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760081358}]没有键[$..data.id], 执行失败
+2025-10-10 15:29:21 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[95.94 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:29:21 - DJ - INFO: 伪数据[用户名][xiashen]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:29:21 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[46.59 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:29:21 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[55.13 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.05s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:32:37 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[82.53 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:32:37 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5Nywic2Vzc2lvbl9rZXkiOiJxV2hvSk1Cd2R5LUN4OXJMYjBCbGMxNXoxQVV1TjU1YTNtdGw1UFJkSUZzPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NjM1NCwibmJmIjoxNzYwMDgxNTU0LCJpYXQiOjE3NjAwODE1NTR9.wPFv_PFoLBXeHASs4nvXb96SGG6O-KXFd6VIINRqg-8]==>[${admintoken}]
+2025-10-10 15:32:37 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[46.45 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:32:38 - DJ - INFO: 伪数据[用户名][ming15]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:32:38 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[92.05 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:32:38 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760081555}]没有键[$..data.id], 执行失败
+2025-10-10 15:32:38 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[68.78 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:32:38 - DJ - INFO: 伪数据[用户名][xiangjie]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:32:39 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[40.16 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:32:39 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[58.71 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:36:13 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[190.76 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:36:13 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5OCwic2Vzc2lvbl9rZXkiOiI1VGYxNVB6eHNHZmhCdTZ1NlVPeEFrRG1yQWx4eXlIWlUyTDdzM2tHb29vPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NjU3MCwibmJmIjoxNzYwMDgxNzcwLCJpYXQiOjE3NjAwODE3NzB9.9j-E0VhLZFqWKre04kTCjWqTJWEA0fwKQMZLYYgshR0]==>[${admintoken}]
+2025-10-10 15:36:13 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[67.59 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:36:14 - DJ - INFO: 伪数据[用户名][huangyong]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:36:14 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[76.01 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:36:14 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760081772}]没有键[$..data.id], 执行失败
+2025-10-10 15:36:15 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[53.02 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:36:15 - DJ - INFO: 伪数据[用户名][jingdeng]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:36:15 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[92.59 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+2025-10-10 15:36:15 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[67.94 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:37:06 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[70.07 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:37:06 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjI5OSwic2Vzc2lvbl9rZXkiOiJ3SVppVUhEcUZuV2p2bWZOMU5kcW9yS1dCUWpLVmE3cEZpUWcyY29vaS1nPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NjYyMywibmJmIjoxNzYwMDgxODIzLCJpYXQiOjE3NjAwODE4MjN9.j-kCSTb1KCEhC7hEqSOw7kJcxpnVmTZ3VaYlUR1ozvs]==>[${admintoken}]
+2025-10-10 15:37:06 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[68.03 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760081824}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760081824}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760081824}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:37:07 - DJ - INFO: 伪数据[用户名][taona]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:37:07 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[83.10 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:37:07 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760081824}]没有键[$..data.id], 执行失败
+2025-10-10 15:37:07 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[65.04 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:37:07 - DJ - INFO: 伪数据[用户名][zliang]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:37:07 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[49.64 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+2025-10-10 15:37:08 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[55.05 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.05s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:45:31 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[80.76 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:45:31 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwMCwic2Vzc2lvbl9rZXkiOiI0Y1lIREFtdWtDSFAyQTUxUlRPekdFc0RKLUExWVlXZ1ZCLWpicXZYY0R3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NzEyOCwibmJmIjoxNzYwMDgyMzI4LCJpYXQiOjE3NjAwODIzMjh9.B3ZviG5T_MyBXGOo_C3oxt0oFvtx36ocvMTC_XEXLkY]==>[${admintoken}]
+2025-10-10 15:45:32 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[90.92 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082329}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082329}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082329}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:45:33 - DJ - INFO: 伪数据[用户名][jingpan]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:45:33 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[66.34 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:45:33 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760082330}]没有键[$..data.id], 执行失败
+2025-10-10 15:45:33 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[59.19 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:45:33 - DJ - INFO: 伪数据[用户名][uwang]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:45:33 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[44.33 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:45:33 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[66.62 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:50:15 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[77.46 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:50:15 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwMSwic2Vzc2lvbl9rZXkiOiJkOFRaejNxZVJoYS0tUW1sZkhuQXYxMVRWem5yc3I4SXRzVWl4SWVqNWZNPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NzQxMiwibmJmIjoxNzYwMDgyNjEyLCJpYXQiOjE3NjAwODI2MTJ9.BnVt_7PKZEblbA7vKw9ZDS9VNLQrswBDAEd6-yCqsro]==>[${admintoken}]
+2025-10-10 15:50:15 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[57.32 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082612}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082612}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082612}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:50:16 - DJ - INFO: 伪数据[用户名][taodai]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:50:16 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[93.80 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:50:16 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760082613}]没有键[$..data.id], 执行失败
+2025-10-10 15:50:17 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[139.44 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:50:17 - DJ - INFO: 伪数据[用户名][xiulan57]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:50:17 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[53.27 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+2025-10-10 15:50:17 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[82.34 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:51:13 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[72.48 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:51:13 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwMiwic2Vzc2lvbl9rZXkiOiJFc0hxWlR3UlFzM2R2aFo2ZS1lNUpOSkI4NFNWM0ZaUkdkZUo5Rnk3X2NvPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NzQ3MCwibmJmIjoxNzYwMDgyNjcwLCJpYXQiOjE3NjAwODI2NzB9.aHD5bpVSwcNqmNz9Ru-JBjSnhgUtB_LhLFbrjQ26Kfs]==>[${admintoken}]
+2025-10-10 15:51:13 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[56.70 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082670}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082670}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760082670}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:51:13 - DJ - INFO: 伪数据[用户名][qlu]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:51:13 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[71.75 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:51:14 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760082671}]没有键[$..data.id], 执行失败
+2025-10-10 15:51:14 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[62.44 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:51:14 - DJ - INFO: 伪数据[用户名][lei21]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:51:14 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[45.57 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:51:14 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[55.89 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.05s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:56:55 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[83.01 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:56:55 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwMywic2Vzc2lvbl9rZXkiOiJWVzVmUVA2bWRVVzdneXpfVUYyRXpldjNsd3hDcGJNU3RRV290SXhQblZFPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4NzgxMiwibmJmIjoxNzYwMDgzMDEyLCJpYXQiOjE3NjAwODMwMTJ9.UEfiDEtzFhxyg-gti1ZM7Ly8RYjl4dEoXgG_9ODrP50]==>[${admintoken}]
+2025-10-10 15:56:55 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[70.07 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过3个, 失败2个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 5}, 'timestamp': 1760083012}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 5}, 'timestamp': 1760083012}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 5}, 'timestamp': 1760083012}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:56:56 - DJ - INFO: 伪数据[用户名][yongliao]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:56:56 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[73.01 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:56:56 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760083013}]没有键[$..data.id], 执行失败
+2025-10-10 15:56:56 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[76.08 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:56:56 - DJ - INFO: 伪数据[用户名][jing18]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:56:56 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[49.42 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:56:56 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[65.01 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:58:11 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[74.99 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:58:11 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwNCwic2Vzc2lvbl9rZXkiOiJPbTBrQ1hmVkZ0ckJ6Z0NOTDdtT2pzWmdTUkJEYXpQeFlCQkkyVjE0dFV3PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4Nzg4OCwibmJmIjoxNzYwMDgzMDg4LCJpYXQiOjE3NjAwODMwODh9.Pm1qedcWdnh8h_SC-cYiX0-IZoqyAOmdXtnlehUbQSI]==>[${admintoken}]
+2025-10-10 15:58:11 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[73.95 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过1个, 失败4个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760083088}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760083088}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 400, 'msg': 'Request parameter format error', 'timestamp': 1760083088}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:58:12 - DJ - INFO: 伪数据[用户名][taoxie]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:58:12 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[92.16 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:58:12 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760083089}]没有键[$..data.id], 执行失败
+2025-10-10 15:58:12 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[68.57 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:58:12 - DJ - INFO: 伪数据[用户名][jun52]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:58:12 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[44.57 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:58:13 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[62.89 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 15:59:35 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[79.29 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 15:59:35 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwNSwic2Vzc2lvbl9rZXkiOiJzekNJeEZuOEdjTlkycy1vRGRJRVlEdV9xZzhzbUQwc3B4TWkxNTRFSlQwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4Nzk3MiwibmJmIjoxNzYwMDgzMTcyLCJpYXQiOjE3NjAwODMxNzJ9.BHM9dtHrOdvNj25ilCCArd2Z5ZfxUKrDZmbgUWHS8oE]==>[${admintoken}]
+2025-10-10 15:59:36 - DJ - ERROR: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[80.71 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计5个, 通过3个, 失败2个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 7}, 'timestamp': 1760083173}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言4: contains_list -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 7}, 'timestamp': 1760083173}】包含断言不通过: 不包含键 'list'
+---断言5: contains_count -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 7}, 'timestamp': 1760083173}】包含断言不通过: 不包含键 'count'
+2025-10-10 15:59:36 - DJ - INFO: 伪数据[用户名][lichang]已保存到测试用例的变量池[role_name]中。
+2025-10-10 15:59:36 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[87.89 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 15:59:36 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760083173}]没有键[$..data.id], 执行失败
+2025-10-10 15:59:36 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[82.46 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 15:59:37 - DJ - INFO: 伪数据[用户名][minwang]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 15:59:37 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[47.70 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 15:59:37 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[59.59 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:01:09 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[81.65 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:01:09 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwNiwic2Vzc2lvbl9rZXkiOiJGMEp0YWN6ZENBdzNTUzVTM2xvWVYzVzVqM0NXaWIxZ3E1Wk5JbVNjYzRZPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODA2NiwibmJmIjoxNzYwMDgzMjY2LCJpYXQiOjE3NjAwODMyNjZ9.2vOTaS77FshN98xy7g3nSw0-iBBTPiipxoXWSePgchY]==>[${admintoken}]
+2025-10-10 16:01:09 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[71.94 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 8}, 'timestamp': 1760083266}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 8}, 'timestamp': 1760083266}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:01:09 - DJ - INFO: 伪数据[用户名][ping54]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:01:09 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[71.68 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:01:09 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760083266}]没有键[$..data.id], 执行失败
+2025-10-10 16:01:10 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[96.80 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 16:01:10 - DJ - INFO: 伪数据[用户名][jyin]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:01:10 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[55.50 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+2025-10-10 16:01:10 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[68.40 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:02:25 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[85.59 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:02:25 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwNywic2Vzc2lvbl9rZXkiOiJpM0x4c3llNGF1VzE3eFZ1dE5reWJLd2lwTjd2S1dXS0VJeFlBa21VNWFZPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODE0MiwibmJmIjoxNzYwMDgzMzQyLCJpYXQiOjE3NjAwODMzNDJ9.mu7PdrtNn5EgKk4gCYG_9_02VQEaaizOSNfVRvsUVtc]==>[${admintoken}]
+2025-10-10 16:02:25 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[72.09 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 9}, 'timestamp': 1760083342}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 9}, 'timestamp': 1760083342}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:02:25 - DJ - INFO: 伪数据[用户名][xuping]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:02:26 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[81.13 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:02:26 - DJ - ERROR: 字典中[{"status":200,"msg":"Create successful","timestamp":1760083343}]没有键[$..data.list[0]], 执行失败
+2025-10-10 16:02:26 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[62.55 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 16:02:26 - DJ - INFO: 伪数据[用户名][li07]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:02:26 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[42.85 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 16:02:27 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[70.41 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:03:31 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[70.80 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:03:31 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwOCwic2Vzc2lvbl9rZXkiOiJLZDNKZExKS3A4ZHZmek5oWHdwNnZ0dURWUlJsa3c4WGdWUFlkaXN1MGNJPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODIwOCwibmJmIjoxNzYwMDgzNDA4LCJpYXQiOjE3NjAwODM0MDh9.6nnSQ7NqtjKNdmtEu_w5OvmZ_QGFnXQtp34QdRlEieY]==>[${admintoken}]
+2025-10-10 16:03:31 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[76.67 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 10}, 'timestamp': 1760083408}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}, {'id': 1, 'name': '超级管理员', 'description': '超级管理员', 'admins': 'admin,wyh,test1,dujin,bbb,huanghao,张三1,111,2222'}], 'count': 10}, 'timestamp': 1760083408}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:03:31 - DJ - INFO: 伪数据[用户名][li48]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:03:31 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[77.04 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:03:32 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[79.82 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:03:32 - DJ - INFO:  已经取得[{"id": 33, "name": "li48", "description": "测试", "admins": ""}]==>[${role_id}]
+2025-10-10 16:03:32 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[68.17 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 16:03:32 - DJ - INFO: 伪数据[用户名][renjun]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:03:32 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[43.13 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 16:03:32 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[57.03 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 400
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.05s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:04:22 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[74.21 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:04:22 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMwOSwic2Vzc2lvbl9rZXkiOiI1TFdJZjBXVTZLTTYzMUZPaDVXNkp2WWphNjVSN2FxNVUtZ1ZhelBub05NPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODI1OSwibmJmIjoxNzYwMDgzNDU5LCJpYXQiOjE3NjAwODM0NTl9.fw3ITHIhocuXk52Anzjt41s_sWFcz72XNJY9_6AI-20]==>[${admintoken}]
+2025-10-10 16:04:22 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[92.21 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.09s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083459}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083459}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:04:23 - DJ - INFO: 伪数据[用户名][yong74]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:04:23 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[69.04 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:04:23 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[66.38 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:04:23 - DJ - INFO:  已经取得[34]==>[${role_id}]
+2025-10-10 16:04:23 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[67.24 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5",jsonpath_$.data.name="${role_name}"]
+2025-10-10 16:04:23 - DJ - INFO: 伪数据[用户名][qgu]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:04:24 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[49.77 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.04s <= 5s
+2025-10-10 16:04:24 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[73.10 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:05:26 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[73.16 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:26 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxMCwic2Vzc2lvbl9rZXkiOiIxeUd3MDJhaVo3LTM2cWNOaTFDeHZqandPcnNrYUkwdDVDY1V2Y01XZVprPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODMyMywibmJmIjoxNzYwMDgzNTIzLCJpYXQiOjE3NjAwODM1MjN9.w01Ju3F4yvKUzDBKEQ4GY494ijVWMHApR3-l5lNOog0]==>[${admintoken}]
+2025-10-10 16:05:26 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[106.07 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.10s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083523}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083523}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:26 - DJ - INFO: 伪数据[用户名][wxia]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:05:27 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[67.03 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:27 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[61.51 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:27 - DJ - INFO:  已经取得[35]==>[${role_id}]
+2025-10-10 16:05:27 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[54.88 ms]-执行不通过 ❌.原因如下：
+ 断言格式错误：["contains_data","value_status=200","time_5","jsonpath_$.data.name=${role_name}]
+2025-10-10 16:05:27 - DJ - INFO: 伪数据[用户名][minwen]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:05:28 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[79.63 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 16:05:28 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[97.16 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.09s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:05:50 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[106.14 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:50 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxMSwic2Vzc2lvbl9rZXkiOiJvSTVpeDRjdjdTaXQ5eV9YNmdfQm5pQmN3ODh1U3k3UTN1MWJSZlBIS2lJPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODM0NywibmJmIjoxNzYwMDgzNTQ3LCJpYXQiOjE3NjAwODM1NDd9.5xiGQYlLhEIl83m2t6_ADRMcNbWAsHViYM_N9JBwW1s]==>[${admintoken}]
+2025-10-10 16:05:51 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[78.49 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083548}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083548}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:51 - DJ - INFO: 伪数据[用户名][jing28]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:05:51 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[68.07 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:51 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[91.69 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:05:51 - DJ - INFO:  已经取得[36]==>[${role_id}]
+2025-10-10 16:05:51 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[85.29 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 36, 'name': 'jing28', 'description': '测试'}, 'timestamp': 1760083548}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.data.name=${role_name}
+2025-10-10 16:05:52 - DJ - INFO: 伪数据[用户名][jun46]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:05:52 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[58.01 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过1个, 失败2个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'msg': '认证令牌无效或已过期', 'status': 401}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✗ 失败: 键 'status' 的值不匹配，期望: 200,实际: 401
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 16:05:52 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[68.83 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:06:59 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[74.78 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:06:59 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxMiwic2Vzc2lvbl9rZXkiOiIwN2doS2dNV05meHUwMTNaaG1WSUgyVHg0eTlnZEJYa3VOY1Atam0yVUg0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODQxNiwibmJmIjoxNzYwMDgzNjE2LCJpYXQiOjE3NjAwODM2MTZ9.7Y_ro_1UWZ3F7QExlslFf5_duaPnekrMMj1IcQqJK_M]==>[${admintoken}]
+2025-10-10 16:06:59 - DJ - ERROR: 用例[1]:[管理员分组列表]执行不通过 ❌.原因如下:
+发送请求失败'tuple' object has no attribute 'strip'
+2025-10-10 16:07:00 - DJ - INFO: 伪数据[用户名][shaojing]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:07:00 - DJ - ERROR: 用例[3]:[添加管理员分组]执行不通过 ❌.原因如下:
+发送请求失败'tuple' object has no attribute 'strip'
+2025-10-10 16:07:00 - DJ - ERROR: 用例[4]:[管理员分组列表]执行不通过 ❌.原因如下:
+发送请求失败'tuple' object has no attribute 'strip'
+2025-10-10 16:07:00 - DJ - ERROR: 字典中[{"status":200,"msg":"Operation successful","data":{"jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxMiwic2Vzc2lvbl9rZXkiOiIwN2doS2dNV05meHUwMTNaaG1WSUgyVHg0eTlnZEJYa3VOY1Atam0yVUg0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODQxNiwibmJmIjoxNzYwMDgzNjE2LCJpYXQiOjE3NjAwODM2MTZ9.7Y_ro_1UWZ3F7QExlslFf5_duaPnekrMMj1IcQqJK_M","second_verify":0,"method":""},"timestamp":1760083616}]没有键[$..data.list[0].id], 执行失败
+2025-10-10 16:07:00 - DJ - ERROR: 用例[6]:[获取单个管理员分组]执行不通过 ❌.原因如下:
+发送请求失败'tuple' object has no attribute 'strip'
+2025-10-10 16:07:00 - DJ - INFO: 伪数据[用户名][qinlei]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:07:00 - DJ - ERROR: 用例[8]:[修改管理员分组]执行不通过 ❌.原因如下:
+发送请求失败'tuple' object has no attribute 'strip'
+2025-10-10 16:07:00 - DJ - ERROR: 用例[9]:[删除管理员分组]执行不通过 ❌.原因如下:
+发送请求失败'tuple' object has no attribute 'strip'
+2025-10-10 16:07:54 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[97.06 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:07:54 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxMywic2Vzc2lvbl9rZXkiOiI2WEpfN3RBeUdYOTlocjh5ZXVtSXgzR051SjJHNXhqRkFiLXV1ODBiLXZZPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODQ3MSwibmJmIjoxNzYwMDgzNjcxLCJpYXQiOjE3NjAwODM2NzF9.d8lLRk8gwtb4U2keNnDi1kF9vqokJ_OoTazA5FzkfHg]==>[${admintoken}]
+2025-10-10 16:07:54 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[73.58 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083671}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083671}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:07:55 - DJ - INFO: 伪数据[用户名][fangkang]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:07:55 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[82.32 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:07:56 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[146.22 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:07:56 - DJ - INFO:  已经取得[37]==>[${role_id}]
+2025-10-10 16:07:56 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[90.56 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 37, 'name': 'fangkang', 'description': '测试'}, 'timestamp': 1760083673}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.09s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.data.name=${role_name}
+2025-10-10 16:07:56 - DJ - INFO: 伪数据[用户名][yong32]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:07:57 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[67.24 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760083674}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 16:07:57 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[66.96 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：jsonpath_$.msg=删除成功
+2025-10-10 16:10:44 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[72.06 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:10:44 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxNCwic2Vzc2lvbl9rZXkiOiJhWmhmeTMzODJZT0wxU3o0em1ZVlhzY21yQzRyXzBtal9FMllxWGdZR1NBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODY0MSwibmJmIjoxNzYwMDgzODQxLCJpYXQiOjE3NjAwODM4NDF9.AcoPvZe7HBSS5BdjKpCAgr-3ckXcwwqfxU_w54Spefc]==>[${admintoken}]
+2025-10-10 16:10:44 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[84.20 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083841}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083841}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:10:44 - DJ - INFO: 伪数据[用户名][xiacao]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:10:44 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[83.10 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:10:44 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[66.11 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:10:44 - DJ - INFO:  已经取得[38]==>[${role_id}]
+2025-10-10 16:10:45 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[57.98 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 38, 'name': 'xiacao', 'description': '测试'}, 'timestamp': 1760083842}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:10:45 - DJ - INFO: 伪数据[用户名][huping]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:10:45 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[73.63 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760083842}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:10:45 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[76.35 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:12:25 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[82.37 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:12:25 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxNSwic2Vzc2lvbl9rZXkiOiJ0a3JFWHhSQnpPVElJUzNNQlM2RWJRMGU1VFgyRDA3dlBHRU1qYkVyZFJFPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODc0MiwibmJmIjoxNzYwMDgzOTQyLCJpYXQiOjE3NjAwODM5NDJ9.e7h5Hdhzlx-ad3AVrWRNzi4qxvtZgcjHOilnz3_kDzQ]==>[${admintoken}]
+2025-10-10 16:12:25 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[94.59 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.09s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083942}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083942}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:12:25 - DJ - INFO: 伪数据[用户名][luona]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:12:25 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[82.58 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:12:25 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[80.77 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:12:25 - DJ - INFO:  已经取得[39]==>[${role_id}]
+2025-10-10 16:12:26 - DJ - INFO: 伪数据[用户名][yan83]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:12:26 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[76.65 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760083943}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:13:02 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[101.42 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:13:02 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxNiwic2Vzc2lvbl9rZXkiOiJnX1VlU25seXVadGEwSThxd0ZXM2Fham9XUFprS0tMdjktX0FzS3AtMC0wPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODc3OSwibmJmIjoxNzYwMDgzOTc5LCJpYXQiOjE3NjAwODM5Nzl9.ZjwQT3IkoMwhL9q7MrwqLFBwy-vj107-A9rec98ErrI]==>[${admintoken}]
+2025-10-10 16:13:02 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[79.84 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083979}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760083979}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:13:02 - DJ - INFO: 伪数据[用户名][minluo]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:13:02 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[61.35 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:13:02 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[70.53 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:13:02 - DJ - INFO:  已经取得[40]==>[${role_id}]
+2025-10-10 16:13:02 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[61.10 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 40, 'name': 'minluo', 'description': '测试'}, 'timestamp': 1760083979}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:13:03 - DJ - INFO: 伪数据[用户名][yanghuang]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:13:03 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[74.50 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760083980}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:13:03 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[87.85 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.08s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:15:56 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[76.83 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:15:56 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxNywic2Vzc2lvbl9rZXkiOiI1djhDZXNYc1VZajZ2dGtIX0NHbmxab1E4RG9MaWR2OWlhQ3FEN0lnZDRVPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4ODk1MywibmJmIjoxNzYwMDg0MTUzLCJpYXQiOjE3NjAwODQxNTN9.ByragtgVOCJ3mgKVIPokNbZJRS-aHO7D3u05Mm9KQCc]==>[${admintoken}]
+2025-10-10 16:15:56 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[76.19 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084153}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084153}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:15:56 - DJ - INFO: 伪数据[用户名][xiongxiuying]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:15:56 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[90.37 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:15:56 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[91.36 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:15:56 - DJ - INFO:  已经取得[41]==>[${role_id}]
+2025-10-10 16:15:56 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[89.49 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 41, 'name': 'xiongxiuying', 'description': '测试'}, 'timestamp': 1760084154}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:15:57 - DJ - INFO: 伪数据[用户名][rtao]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:15:57 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[74.72 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760084154}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:15:57 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[78.84 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:17:44 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[75.14 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:17:44 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxOCwic2Vzc2lvbl9rZXkiOiJScFctYkZrR3A1dThBUkpCUzBKRUhvbzIxMkc1d012UlNWQkxOOWpDbzJvPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTA2MSwibmJmIjoxNzYwMDg0MjYxLCJpYXQiOjE3NjAwODQyNjF9.nWVd2_QSE_S8A3HkUHOBLpDqJb6c-wR1e44r-FBPXV0]==>[${admintoken}]
+2025-10-10 16:17:44 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[72.22 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084261}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084261}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:17:44 - DJ - INFO: 伪数据[用户名][qianna]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:17:44 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[65.77 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:17:44 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[65.54 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:17:44 - DJ - INFO:  已经取得[42]==>[${role_id}]
+2025-10-10 16:17:44 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[60.61 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 42, 'name': 'qianna', 'description': '测试'}, 'timestamp': 1760084261}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:17:45 - DJ - INFO: 伪数据[用户名][ameng]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:17:45 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[72.21 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760084262}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:17:45 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[74.63 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:19:59 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[74.63 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:19:59 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMxOSwic2Vzc2lvbl9rZXkiOiJIaHdIX19OdzdNRnE0anJ4S1dyTUtLTERNQlktY0NJcWVVUU8xcEROdGtjPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTE5NiwibmJmIjoxNzYwMDg0Mzk2LCJpYXQiOjE3NjAwODQzOTZ9.XA-52B2vBUA4y97ahqu9LbBb0AZBJ-Pxrm0AV3N2uHI]==>[${admintoken}]
+2025-10-10 16:19:59 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[72.92 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084396}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084396}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:19:59 - DJ - INFO: 伪数据[用户名][ifu]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:19:59 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[73.40 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:19:59 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[69.79 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:19:59 - DJ - INFO:  已经取得[43]==>[${role_id}]
+2025-10-10 16:19:59 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[75.98 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 43, 'name': 'ifu', 'description': '测试'}, 'timestamp': 1760084396}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:20:00 - DJ - INFO: 伪数据[用户名][tao91]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:20:00 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[76.41 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760084397}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:20:00 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[64.25 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:26:37 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[79.28 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:26:37 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyMCwic2Vzc2lvbl9rZXkiOiJZUWJodHYwYnRuRWM5SHNmOXRHbnNqRGUzU1N6YTBtYTF3WUt6bVUzM2IwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTU5NCwibmJmIjoxNzYwMDg0Nzk0LCJpYXQiOjE3NjAwODQ3OTR9.3yPtyLQpRVoiaN5yg9nkkupJDn3ciV8LLKp1MVghYUI]==>[${admintoken}]
+2025-10-10 16:26:37 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[73.61 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084794}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084794}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:26:37 - DJ - INFO: 伪数据[用户名][juanyu]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:26:37 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[79.85 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:26:37 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[103.32 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:26:37 - DJ - INFO:  已经取得[44]==>[${role_id}]
+2025-10-10 16:26:38 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[154.49 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 44, 'name': 'juanyu', 'description': '测试'}, 'timestamp': 1760084795}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.12s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:26:38 - DJ - INFO: 伪数据[用户名][xiuyingding]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:26:38 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[70.45 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760084795}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:26:38 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[84.47 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:28:01 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[89.25 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:28:01 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyMSwic2Vzc2lvbl9rZXkiOiJiVG1sdHpzZTBPU0FTRkRvRnc1Z1gwOE9LNDhvd001UEFHWE02eXNfMUtRPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTY3OCwibmJmIjoxNzYwMDg0ODc4LCJpYXQiOjE3NjAwODQ4Nzh9.f4xCnRvsFLddRakaWHi-iZRvn1Kxb0TuQ92Vm3-Y8b8]==>[${admintoken}]
+2025-10-10 16:28:01 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[66.68 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084879}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084879}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:28:02 - DJ - INFO: 伪数据[用户名][wei15]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:28:02 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[69.08 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:28:02 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[63.41 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:28:02 - DJ - INFO:  已经取得[45]==>[${role_id}]
+2025-10-10 16:28:02 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[62.94 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 45, 'name': 'wei15', 'description': '测试'}, 'timestamp': 1760084879}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:28:02 - DJ - INFO: 伪数据[用户名][sgong]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:28:03 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[78.93 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760084880}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 16:28:03 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[100.45 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.10s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:29:19 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[85.93 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:29:19 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyMiwic2Vzc2lvbl9rZXkiOiJiTXJVZzg1SlZIVWhIalBzaXpsVFdKY0VqaGxoTXdNb2NhcThHQzBkcHFVPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTc1NiwibmJmIjoxNzYwMDg0OTU2LCJpYXQiOjE3NjAwODQ5NTZ9.iLgimMfkmog29ZG_vWbmjtGZH3r-0aHxoQEU9lq3kZ0]==>[${admintoken}]
+2025-10-10 16:29:19 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[80.86 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084956}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760084956}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:29:19 - DJ - INFO: 伪数据[用户名][min36]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:29:19 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[66.23 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:29:19 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[65.98 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:29:19 - DJ - INFO:  已经取得[46]==>[${role_id}]
+2025-10-10 16:29:19 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[61.32 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 46, 'name': 'min36', 'description': '测试'}, 'timestamp': 1760084956}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:29:20 - DJ - INFO: 伪数据[用户名][xiuyinglin]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:29:20 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[87.59 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760084957}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 16:29:20 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[79.95 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.08s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:31:36 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[77.43 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:31:36 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyMywic2Vzc2lvbl9rZXkiOiJBUW12Q1JFY0FqVmRudUxHMkNqMXVSUWZ2NDRDVjY0VDJ5SGpwYkU4WFk0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTg5MywibmJmIjoxNzYwMDg1MDkzLCJpYXQiOjE3NjAwODUwOTN9.jNMIRimVPRVKc1mkseNkxTPdhlT1g2L9cm37D4bdjac]==>[${admintoken}]
+2025-10-10 16:31:36 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[89.96 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.09s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085093}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085093}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:31:37 - DJ - INFO: 伪数据[用户名][laifang]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:31:37 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[67.55 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:31:37 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[69.66 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:31:37 - DJ - INFO:  已经取得[47]==>[${role_id}]
+2025-10-10 16:31:37 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[60.21 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 47, 'name': 'laifang', 'description': '测试'}, 'timestamp': 1760085094}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:31:37 - DJ - INFO: 伪数据[用户名][wren]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:31:37 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[114.15 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760085095}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.10s <= 5s
+2025-10-10 16:31:38 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[90.06 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.08s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:32:54 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[85.35 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:32:54 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyNCwic2Vzc2lvbl9rZXkiOiJzbDR5UWNYNGRFMXRwUUZTZ2EtMG9QUDA4QlFrOHp4aHZCTzZ0Y1lUVng0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY4OTk3MSwibmJmIjoxNzYwMDg1MTcxLCJpYXQiOjE3NjAwODUxNzF9.WuwhqGUIOVUyRHeVA1QDiWvAmEnrMe1Lk_L9nGime3w]==>[${admintoken}]
+2025-10-10 16:32:54 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[85.32 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085171}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085171}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:32:54 - DJ - INFO: 伪数据[用户名][yuna]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:32:54 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[75.34 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:32:55 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[82.21 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:32:55 - DJ - INFO:  已经取得[48]==>[${role_id}]
+2025-10-10 16:32:55 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[62.80 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 48, 'name': 'yuna', 'description': '测试'}, 'timestamp': 1760085172}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:32:55 - DJ - INFO: 伪数据[用户名][xiulan74]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:32:55 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[63.41 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760085172}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 16:32:55 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[69.05 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:34:06 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[68.68 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:06 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyNSwic2Vzc2lvbl9rZXkiOiJJYTVwVWhhT19EaGJkZHZnWE5wbG9LLWdZQWtFczFxWHlPYnFlblctZ3I0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY5MDA0MywibmJmIjoxNzYwMDg1MjQzLCJpYXQiOjE3NjAwODUyNDN9.NDgUTZ5OnR-AgEKzKrNNQPd2h4hQEJALHPvfmdMwxoo]==>[${admintoken}]
+2025-10-10 16:34:07 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[74.25 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085244}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085244}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:07 - DJ - INFO: 伪数据[用户名][yzhao]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:34:07 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[68.46 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:07 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[71.10 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:07 - DJ - INFO:  已经取得[49]==>[${role_id}]
+2025-10-10 16:34:07 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[57.65 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 49, 'name': 'yzhao', 'description': '测试'}, 'timestamp': 1760085244}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.05s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:34:08 - DJ - INFO: 伪数据[用户名][suping]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:34:08 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[84.12 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760085245}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+2025-10-10 16:34:08 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[67.66 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:34:55 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[77.55 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:55 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyNiwic2Vzc2lvbl9rZXkiOiJURElPSjZET21GNWhXazlicFdEV2Q3MTcyWjRSUWp6Zllzenh6VDJGNkFBPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY5MDA5MiwibmJmIjoxNzYwMDg1MjkyLCJpYXQiOjE3NjAwODUyOTJ9.ipid7vXpLWotZdnhcd5XYqsiu37BL3KcPqrC_5YY4k0]==>[${admintoken}]
+2025-10-10 16:34:55 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[76.47 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085293}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085293}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:56 - DJ - INFO: 伪数据[用户名][okang]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:34:56 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[88.38 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:56 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[75.82 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:34:56 - DJ - INFO:  已经取得[50]==>[${role_id}]
+2025-10-10 16:34:56 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[66.12 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 50, 'name': 'okang', 'description': '测试'}, 'timestamp': 1760085293}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:34:57 - DJ - INFO: 伪数据[用户名][zoujun]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:34:57 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[73.92 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760085294}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+2025-10-10 16:34:57 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[66.10 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.06s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:43:26 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[73.37 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:43:26 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyNywic2Vzc2lvbl9rZXkiOiJkcUdhM20zVFF4UVRVQ0NUVHVQcTlIMkZ3NWVpRDJpRnZRbm1TTUZGMkxjPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY5MDYwMywibmJmIjoxNzYwMDg1ODAzLCJpYXQiOjE3NjAwODU4MDN9.tXv_5qF9xrQ5OSPUjDJet8AfKBNiSraVpryfnTETjEY]==>[${admintoken}]
+2025-10-10 16:43:26 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[91.60 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085803}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760085803}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:43:26 - DJ - INFO: 伪数据[用户名][ctan]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:43:27 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[74.73 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:43:27 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[73.03 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:43:27 - DJ - INFO:  已经取得[51]==>[${role_id}]
+2025-10-10 16:43:27 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[70.89 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 51, 'name': 'ctan', 'description': '测试'}, 'timestamp': 1760085804}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：${role_name}
+2025-10-10 16:43:28 - DJ - INFO: 伪数据[用户名][yong80]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:43:28 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[104.88 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760085805}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.10s <= 5s
+2025-10-10 16:43:28 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[298.21 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.25s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:48:16 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[85.23 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:48:16 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyOCwic2Vzc2lvbl9rZXkiOiIyamNXMC1JQnQtT2hpVXFKcW9fNk5Jc0VaazFoSFNxMXhFMVBJcUtVeFU0PSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY5MDg5MywibmJmIjoxNzYwMDg2MDkzLCJpYXQiOjE3NjAwODYwOTN9.zGKp_MYJ8MEdh1hqr7XP12TGoZFV2Qgr4OC0diU0v94]==>[${admintoken}]
+2025-10-10 16:48:16 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[80.90 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760086093}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760086093}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:48:16 - DJ - INFO: 伪数据[用户名][nawang]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:48:16 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[71.07 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:48:16 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[71.42 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:48:16 - DJ - INFO:  已经取得[52]==>[${role_id}]
+2025-10-10 16:48:17 - DJ - ERROR: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[60.39 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计4个, 通过3个, 失败1个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 52, 'name': 'nawang', 'description': '测试'}, 'timestamp': 1760086094}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✗ 失败: JSONPath断言格式错误，缺少期望值：nawang
+2025-10-10 16:48:17 - DJ - INFO: 伪数据[用户名][ipan]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:48:17 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[92.63 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760086094}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.09s <= 5s
+2025-10-10 16:48:17 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[74.92 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言格式错误，缺少期望值：删除成功
+2025-10-10 16:51:24 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[79.73 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:51:24 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMyOSwic2Vzc2lvbl9rZXkiOiJ1ZFRTXzBKZjRaSVVkaGhFUGZ5NGdYWFBTOVRtRU8xUTJBdmM4ejRPSEgwPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY5MTA4MSwibmJmIjoxNzYwMDg2MjgxLCJpYXQiOjE3NjAwODYyODF9.leunlcAsKu6jJQlCJw3f5KqG31lys6JMs0lKKYvoTMY]==>[${admintoken}]
+2025-10-10 16:51:24 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[75.83 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.07s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760086281}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760086281}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:51:24 - DJ - INFO: 伪数据[用户名][fangxie]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:51:24 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[60.61 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:51:24 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[66.33 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:51:24 - DJ - INFO:  已经取得[53]==>[${role_id}]
+2025-10-10 16:51:24 - DJ - INFO: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[66.89 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 53, 'name': 'fangxie', 'description': '测试'}, 'timestamp': 1760086281}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✓ 通过: JSONPath断言通过: '$.data.name' 期望 fangxie，实际 fangxie 
+ 变量提取结果：无变量提取
+2025-10-10 16:51:24 - DJ - INFO: 伪数据[用户名][taozhu]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:51:24 - DJ - ERROR: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[64.03 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: contains_data -> ✗ 失败: 接口响应【{'status': 200, 'msg': 'Update successful', 'timestamp': 1760086281}】包含断言不通过: 不包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.06s <= 5s
+2025-10-10 16:51:25 - DJ - ERROR: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[77.42 ms]-执行不通过 ❌.原因如下：
+ 断言执行完成: 总计3个, 通过2个, 失败1个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_3 -> ✓ 通过: 响应时间断言通过: 0.07s <= 3s
+---断言3: jsonpath_$.msg=删除成功 -> ✗ 失败: JSONPath断言失败: '$.msg' 期望 删除成功，实际 Delete successful
+2025-10-10 16:53:05 - DJ - INFO: 接口名称：【登录】-响应状态码[200]-接口响应时间[67.82 ms]-执行通过 ✅. 
+ 校验结果：用例[1]：[登录]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:53:05 - DJ - INFO:  已经取得[eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NiwiYWRtaW5fbmFtZSI6ImR1amluIiwibG9naW5faWQiOjMzMCwic2Vzc2lvbl9rZXkiOiIyV01zMkVVYWVTQ09kamVzSWozbGxlb3p0amVaTmxvZUo0Q0xXM2lVT3pjPSIsImlzX3JlZnJlc2giOmZhbHNlLCJ1c2VyX3R5cGUiOiJhZG1pbiIsImlzcyI6ImRjaW0tc3lzdGVtIiwic3ViIjoiYWRtaW46NiIsImV4cCI6MTc2MDY5MTE4MiwibmJmIjoxNzYwMDg2MzgyLCJpYXQiOjE3NjAwODYzODJ9.5rMCDaDdIYUaJU28Zl3JpGiihrD2hjWKN52QpowSL1s]==>[${admintoken}]
+2025-10-10 16:53:06 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[100.26 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言2: time_5 -> ✓ 通过: 响应时间断言通过: 0.09s <= 5s
+---断言3: contains_data.list -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760086383}】包含断言通过: 包含嵌套键 'data.list'
+---断言4: contains_data.count -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'list': [{'id': 33, 'name': 'li48', 'description': '测试', 'admins': ''}, {'id': 32, 'name': 'xuping', 'description': '测试', 'admins': ''}, {'id': 31, 'name': 'ping54', 'description': '测试', 'admins': ''}, {'id': 30, 'name': 'lichang', 'description': '测试', 'admins': ''}, {'id': 29, 'name': 'taoxie', 'description': '测试', 'admins': ''}, {'id': 28, 'name': 'yongliao', 'description': '测试', 'admins': ''}, {'id': 27, 'name': 'qlu', 'description': '测试', 'admins': ''}, {'id': 26, 'name': 'taodai', 'description': '测试', 'admins': ''}, {'id': 25, 'name': 'jingpan', 'description': '测试', 'admins': ''}, {'id': 17, 'name': '123', 'description': '', 'admins': ''}], 'count': 11}, 'timestamp': 1760086383}】包含断言通过: 包含嵌套键 'data.count' 
+ 变量提取结果：无变量提取
+2025-10-10 16:53:06 - DJ - INFO: 伪数据[用户名][chao07]已保存到测试用例的变量池[role_name]中。
+2025-10-10 16:53:06 - DJ - INFO: 接口名称：【添加管理员分组】-响应状态码[200]-接口响应时间[83.80 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:53:06 - DJ - INFO: 接口名称：【管理员分组列表】-响应状态码[200]-接口响应时间[61.80 ms]-执行通过 ✅. 
+ 校验结果：用例[4]：[管理员分组列表]执行完成,未添加断言. 
+ 变量提取结果：无变量提取
+2025-10-10 16:53:06 - DJ - INFO:  已经取得[54]==>[${role_id}]
+2025-10-10 16:53:06 - DJ - INFO: 接口名称：【获取单个管理员分组】-响应状态码[200]-接口响应时间[83.13 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计4个, 通过4个, 失败0个
+---断言1: contains_data -> ✓ 通过: 接口响应【{'status': 200, 'msg': 'Operation successful', 'data': {'id': 54, 'name': 'chao07', 'description': '测试'}, 'timestamp': 1760086383}】包含断言通过: 包含键 'data'
+---断言2: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200
+---断言3: time_5 -> ✓ 通过: 响应时间断言通过: 0.08s <= 5s
+---断言4: jsonpath_$.data.name=${role_name} -> ✓ 通过: JSONPath断言通过: '$.data.name' 期望 chao07，实际 chao07 
+ 变量提取结果：无变量提取
+2025-10-10 16:53:06 - DJ - INFO: 伪数据[用户名][shenxia]已保存到测试用例的变量池[role_name1]中。
+2025-10-10 16:53:06 - DJ - INFO: 接口名称：【修改管理员分组】-响应状态码[200]-接口响应时间[65.83 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取
+2025-10-10 16:53:06 - DJ - INFO: 接口名称：【删除管理员分组】-响应状态码[200]-接口响应时间[66.99 ms]-执行通过 ✅. 
+ 校验结果：断言执行完成: 总计1个, 通过1个, 失败0个
+---断言1: value_status=200 -> ✓ 通过: 键 'status' 的值匹配，期望: 200,实际: 200 
+ 变量提取结果：无变量提取

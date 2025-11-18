@@ -1,0 +1,73 @@
+# ========================================
+# 项目基础配置
+# ========================================
+
+# 项目名称
+project_name: "pytestApi"
+
+# 测试报告目录配置
+test_report_dir: "TestReport/allure-report"
+test_result_dir: "TestReport/allure-results"
+test_screenshot_dir: "TestReport/Screenshot"
+
+# ========================================
+# 关键字驱动函数映射
+# ========================================
+commkey:
+  获取当前执行用例: "get_exceut_case"
+  获取当前用例文件名称: "get_current_casefile_name"
+  post: "send_api"
+  get: "send_api"
+  put: "send_api"
+  delete: "send_api"
+  发送消息: "send_msg"
+  设置变量: "set_variable"
+  字典取值: "get_json_value_as_key"
+  执行SQL: "execut_sql"
+  发送邮件: "send_email"
+  生成随机字符串: "new_random_str"
+  数据库断言: "assert_database"
+  替换字符串: "replace"
+  伪数据: "random_str"
+  等待: "force_wait"
+  获取数组: "fetch_all_ids"
+
+# ========================================
+# 日志配置
+# ========================================
+log:
+  level: "DEBUG"
+  console_enabled: "true"  # 是否输出到控制台
+  format: "%(asctime)s - %(name)s - %(levelname)s: %(message)s"
+  filename: "log.log"
+  when: "D"  # 日志轮转方式: D(天), H(小时), M(分钟)
+  backup_count: 30  # 保留的日志文件数量
+  
+  # 支持的日志级别：
+  # TRACE: 最低级别的日志级别，用于详细追踪程序的执行。
+  # DEBUG: 用于调试和开发过程中打印详细的调试信息。
+  # INFO: 提供程序执行过程中的关键信息。
+  # SUCCESS: 用于标记成功或重要的里程碑事件。
+  # WARNING: 表示潜在的问题或不符合预期的情况，但不会导致程序失败。
+  # ERROR: 表示错误和异常情况，但程序仍然可以继续运行。
+  # CRITICAL: 表示严重的错误和异常情况，可能导致程序崩溃或无法正常运行。
+
+# ========================================
+# 标识符配置
+# ========================================
+identifier:
+  note: "#"
+
+# ========================================
+# 并发执行配置
+# ========================================
+concurrent:
+  enabled: true                    # 是否启用并发执行功能
+  default_max_workers: null        # 默认并发数，null 表示自动检测 CPU 核心数
+  file_level_parallel: true        # 文件级并发（按 Excel 文件分组并发）
+  case_level_parallel: false       # 用例级并发（需要 pytest-xdist）
+  timeout: 600                     # 单个文件执行超时时间（秒），默认 10 分钟
+  merge_logs: true                 # 是否合并日志文件
+  cleanup_temp_files: true         # 执行完成后是否清理临时文件
+  cleanup_worker_logs: true        # 执行完成后是否清理 worker 日志
+
